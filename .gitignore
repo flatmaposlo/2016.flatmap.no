@@ -1,0 +1,4 @@
+.sass-cache
+.bundle
+vendor
+bower_components
