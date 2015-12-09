@@ -111,6 +111,14 @@ p {
     margin-bottom: 20pt;
   }
 
+  a {
+    color: white;
+
+    &:hover {
+      color: white;
+    }
+  }
+
   font-family: "franklin-gothic-urw", sans-serif;
   font-style: "normal";
   font-weight: 300;
