@@ -92,8 +92,16 @@ p a:hover {
 .location a:hover {
   color: white;
 }
+/* line 120, ../scss/app.scss */
+.location a:active {
+  color: white;
+}
+/* line 123, ../scss/app.scss */
+.location a:visited {
+  color: white;
+}
 
-/* line 127, ../scss/app.scss */
+/* line 133, ../scss/app.scss */
 .schedule_frontpage {
   padding-top: 50pt;
   padding-bottom: 50pt;
@@ -104,7 +112,7 @@ p a:hover {
   font-style: "normal";
   font-weight: 800;
 }
-/* line 137, ../scss/app.scss */
+/* line 143, ../scss/app.scss */
 .schedule_frontpage h3 {
   margin-bottom: 30pt;
   color: #F25454;
@@ -112,11 +120,11 @@ p a:hover {
   font-style: "normal";
   font-weight: 700;
 }
-/* line 144, ../scss/app.scss */
+/* line 150, ../scss/app.scss */
 .schedule_frontpage li {
   padding-left: 40pt;
 }
-/* line 148, ../scss/app.scss */
+/* line 154, ../scss/app.scss */
 .schedule_frontpage p.named {
   margin-top: 1.5em;
   margin-bottom: 4em;
@@ -124,7 +132,7 @@ p a:hover {
   font-weight: 500;
 }
 
-/* line 156, ../scss/app.scss */
+/* line 162, ../scss/app.scss */
 .speakers_frontpage {
   padding-top: 50pt;
   padding-bottom: 50pt;
@@ -135,7 +143,7 @@ p a:hover {
   font-style: "normal";
   font-weight: 800;
 }
-/* line 166, ../scss/app.scss */
+/* line 172, ../scss/app.scss */
 .speakers_frontpage h3 {
   margin-bottom: 30pt;
   color: #F25454;
@@ -143,11 +151,11 @@ p a:hover {
   font-style: "normal";
   font-weight: 700;
 }
-/* line 173, ../scss/app.scss */
+/* line 179, ../scss/app.scss */
 .speakers_frontpage li {
   padding-left: 40pt;
 }
-/* line 177, ../scss/app.scss */
+/* line 183, ../scss/app.scss */
 .speakers_frontpage p.named {
   margin-top: 1.5em;
   margin-bottom: 4em;
@@ -155,7 +163,7 @@ p a:hover {
   font-weight: 500;
 }
 
-/* line 185, ../scss/app.scss */
+/* line 191, ../scss/app.scss */
 .call_for_speakers {
   padding-top: 50pt;
   padding-bottom: 50pt;
@@ -166,7 +174,7 @@ p a:hover {
   font-style: "normal";
   font-weight: 800;
 }
-/* line 195, ../scss/app.scss */
+/* line 201, ../scss/app.scss */
 .call_for_speakers h3 {
   margin-bottom: 20pt;
   color: #F25454;
@@ -174,12 +182,12 @@ p a:hover {
   font-style: "normal";
   font-weight: 700;
 }
-/* line 202, ../scss/app.scss */
+/* line 208, ../scss/app.scss */
 .call_for_speakers li {
   padding-left: 40pt;
 }
 
-/* line 207, ../scss/app.scss */
+/* line 213, ../scss/app.scss */
 .sponsors {
   padding-top: 50pt;
   padding-bottom: 50pt;
@@ -187,14 +195,37 @@ p a:hover {
   padding-left: 10pt;
   background-color: #DCDCDC;
 }
-/* line 215, ../scss/app.scss */
+/* line 221, ../scss/app.scss */
 .sponsors h3 {
   margin-bottom: 30pt;
   color: #374140;
   font-weight: 700;
 }
 
-/* line 222, ../scss/app.scss */
+/* line 228, ../scss/app.scss */
+.typelevel {
+  padding-top: 50pt;
+  padding-bottom: 50pt;
+  padding-right: 10pt;
+  padding-left: 10pt;
+  background-color: #F25454;
+}
+/* line 236, ../scss/app.scss */
+.typelevel h3 {
+  margin-bottom: 30pt;
+  color: #374140;
+  font-weight: 700;
+}
+/* line 242, ../scss/app.scss */
+.typelevel a {
+  color: white;
+}
+/* line 245, ../scss/app.scss */
+.typelevel a:hover {
+  color: white;
+}
+
+/* line 251, ../scss/app.scss */
 .footer {
   color: #E6E6E6;
   padding-top: 50pt;
@@ -205,13 +236,13 @@ p a:hover {
   font-style: "normal";
   font-weight: 300;
 }
-/* line 229, ../scss/app.scss */
+/* line 258, ../scss/app.scss */
 .footer .flatmap_logo {
   width: 30%;
   margin: 20pt;
 }
 
-/* line 239, ../scss/app.scss */
+/* line 268, ../scss/app.scss */
 .codeOfConduct {
   color: #E6E6E6;
   padding-top: 50pt;
@@ -222,19 +253,19 @@ p a:hover {
   font-style: "normal";
   font-weight: 300;
 }
-/* line 246, ../scss/app.scss */
+/* line 275, ../scss/app.scss */
 .codeOfConduct h3 {
   color: #F25454;
   font-family: "franklin-gothic-urw", sans-serif;
   font-style: "normal";
   font-weight: 700;
 }
-/* line 257, ../scss/app.scss */
+/* line 286, ../scss/app.scss */
 .codeOfConduct h4 {
   color: #E6E6E6;
 }
 
-/* line 262, ../scss/app.scss */
+/* line 291, ../scss/app.scss */
 .speakers {
   background-color: #F2F2F2;
   padding-top: 50pt;
@@ -245,63 +276,63 @@ p a:hover {
   font-style: "normal";
   font-weight: 300;
 }
-/* line 269, ../scss/app.scss */
+/* line 298, ../scss/app.scss */
 .speakers a {
   font-size: 14pt;
   font-weight: 800;
 }
-/* line 274, ../scss/app.scss */
+/* line 303, ../scss/app.scss */
 .speakers p.spaced {
   margin-bottom: 2em;
 }
-/* line 278, ../scss/app.scss */
+/* line 307, ../scss/app.scss */
 .speakers p.named {
   font-size: 14pt;
   font-weight: 800;
 }
-/* line 283, ../scss/app.scss */
+/* line 312, ../scss/app.scss */
 .speakers h3 {
   font-family: "franklin-gothic-urw", sans-serif;
   font-style: "normal";
   font-weight: 700;
 }
-/* line 293, ../scss/app.scss */
+/* line 322, ../scss/app.scss */
 .speakers h4 {
   color: #E6E6E6;
 }
 
-/* line 299, ../scss/app.scss */
+/* line 328, ../scss/app.scss */
 .large-block-grid-3 li.fakespace {
   width: 16.5%;
 }
 
-/* line 304, ../scss/app.scss */
+/* line 333, ../scss/app.scss */
 #twitterImg {
   position: absolute;
   top: 20px;
   right: 25px;
   z-index: 900;
 }
-/* line 310, ../scss/app.scss */
+/* line 339, ../scss/app.scss */
 #twitterImg img {
   height: 27px;
 }
 
-/* line 315, ../scss/app.scss */
+/* line 344, ../scss/app.scss */
 ul.schedule {
   list-style: none;
   margin: 0;
 }
-/* line 319, ../scss/app.scss */
+/* line 348, ../scss/app.scss */
 ul.schedule * {
   font-weight: 200;
   font-size: 1rem;
 }
-/* line 324, ../scss/app.scss */
+/* line 353, ../scss/app.scss */
 ul.schedule .schedule_speaker {
   font-weight: 800;
 }
-/* line 328, ../scss/app.scss */
+/* line 357, ../scss/app.scss */
 ul.schedule li.time {
   color: #F2F2F2;
   font-family: "franklin-gothic-urw", sans-serif;
@@ -310,11 +341,11 @@ ul.schedule li.time {
   font-weight: 700;
   background-color: #1e1e20;
 }
-/* line 337, ../scss/app.scss */
+/* line 366, ../scss/app.scss */
 ul.schedule li {
   padding: 0;
 }
-/* line 341, ../scss/app.scss */
+/* line 370, ../scss/app.scss */
 ul.schedule li.talk {
   padding-left: 0.5em;
   padding-top: 0.7em;
@@ -323,15 +354,15 @@ ul.schedule li.talk {
   margin-bottom: 0.7em;
   background-color: #F25454;
 }
-/* line 349, ../scss/app.scss */
+/* line 378, ../scss/app.scss */
 ul.schedule li.talk a {
   color: #F2F2F2;
 }
-/* line 353, ../scss/app.scss */
+/* line 382, ../scss/app.scss */
 ul.schedule li.talk a:hover {
   color: #1e418b;
 }
-/* line 358, ../scss/app.scss */
+/* line 387, ../scss/app.scss */
 ul.schedule li.conference {
   color: black;
   background-color: #F2F2F2;
@@ -341,11 +372,11 @@ ul.schedule li.conference {
   margin-top: 0.7em;
   margin-bottom: 0.7em;
 }
-/* line 368, ../scss/app.scss */
+/* line 397, ../scss/app.scss */
 ul.schedule li.splittracks {
   margin-bottom: 1em;
 }
-/* line 372, ../scss/app.scss */
+/* line 401, ../scss/app.scss */
 ul.schedule ul.tracks {
   margin-top: 0.7em;
   list-style: none;
@@ -354,7 +385,7 @@ ul.schedule ul.tracks {
   height: 100%;
   display: table;
 }
-/* line 380, ../scss/app.scss */
+/* line 409, ../scss/app.scss */
 ul.schedule ul.tracks li.track {
   width: 50%;
   margin: 0;
@@ -362,21 +393,21 @@ ul.schedule ul.tracks li.track {
   height: 100%;
   display: table-cell;
 }
-/* line 387, ../scss/app.scss */
+/* line 416, ../scss/app.scss */
 ul.schedule ul.tracks li.track .talk {
   margin: 0;
 }
-/* line 391, ../scss/app.scss */
+/* line 420, ../scss/app.scss */
 ul.schedule ul.tracks li.track ul.split {
   list-style: none;
   margin: 0;
   height: 100%;
 }
-/* line 396, ../scss/app.scss */
+/* line 425, ../scss/app.scss */
 ul.schedule ul.tracks li.track ul.split li.workshop {
   height: 100%;
 }
-/* line 402, ../scss/app.scss */
+/* line 431, ../scss/app.scss */
 ul.schedule ul.tracks li.workshops {
   width: 50%;
   margin: 0;
@@ -385,25 +416,25 @@ ul.schedule ul.tracks li.workshops {
   display: table-cell;
   background-color: #1E418B;
 }
-/* line 410, ../scss/app.scss */
+/* line 439, ../scss/app.scss */
 ul.schedule ul.tracks li.workshops a {
   color: #F2F2F2;
 }
-/* line 414, ../scss/app.scss */
+/* line 443, ../scss/app.scss */
 ul.schedule ul.tracks li.workshops a:hover {
   color: #f25454;
 }
-/* line 418, ../scss/app.scss */
+/* line 447, ../scss/app.scss */
 ul.schedule ul.tracks li.workshops ul.split {
   list-style: none;
   margin: 0;
   height: 100%;
 }
-/* line 423, ../scss/app.scss */
+/* line 452, ../scss/app.scss */
 ul.schedule ul.tracks li.workshops ul.split li.workshop {
   height: 100%;
 }
-/* line 429, ../scss/app.scss */
+/* line 458, ../scss/app.scss */
 ul.schedule ul.tracks li {
   padding-left: 0.5em;
   padding-right: 0.5em;
