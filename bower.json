@@ -1,7 +1,10 @@
 {
-  "name": "foundation-compass-app",
+  "name": "flatmap-site",
   "version": "0.0.1",
   "private": "true",
+  "authors": [
+    "Alfred Lysebraate <github@lysebraate.no>"
+  ],
   "dependencies": {
     "foundation": "zurb/bower-foundation"
   }

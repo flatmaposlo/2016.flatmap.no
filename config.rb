@@ -1,30 +1,44 @@
-# Require any additional compass plugins here.
-add_import_path "bower_components/foundation/scss"
+###
+# Page options, layouts, aliases and proxies
+###
 
-# Set this to the root of your project when deployed:
-http_path = "/"
-css_dir = "stylesheets"
-sass_dir = "scss"
-images_dir = "images"
-javascripts_dir = "js"
+# Per-page layout changes:
+#
+# With no layout
+page '/*.xml', layout: false
+page '/*.json', layout: false
+page '/*.txt', layout: false
 
-# You can select your preferred output style here (can be overridden via the command line):
-# output_style = :expanded or :nested or :compact or :compressed
+# With alternative layout
+# page "/path/to/file.html", layout: :otherlayout
 
-# To enable relative paths to assets via compass helper functions. Uncomment:
-# relative_assets = true
+# Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
+# proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
+#  which_fake_page: "Rendering a fake page with a local variable" }
 
-# To disable debugging comments that display the original location of your selectors. Uncomment:
-# line_comments = false
+# General configuration
 
+# Reload the browser automatically whenever files change
+configure :development do
+  activate :livereload
+end
 
-# If you prefer the indented syntax, you might want to regenerate this
-# project again passing --syntax sass, or you can uncomment this:
-# preferred_syntax = :sass
-# and then run:
-# sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
+###
+# Helpers
+###
 
-if Gem.loaded_specs["sass"].version >= Gem::Version.create('3.4')
-  warn "You're using Sass 3.4 or higher to compile Foundation. This version causes CSS classes to output incorrectly, so we recommend using Sass 3.3 or 3.2."
-  warn "To use the right version of Sass on this project, run \"bundle\" and then use \"bundle exec compass watch\" to compile Foundation."
+# Methods defined in the helpers block are available in templates
+# helpers do
+#   def some_helper
+#     "Helping"
+#   end
+# end
+
+# Build-specific configuration
+configure :build do
+  # Minify CSS on build
+  # activate :minify_css
+
+  # Minify Javascript on build
+  # activate :minify_javascript
 end
