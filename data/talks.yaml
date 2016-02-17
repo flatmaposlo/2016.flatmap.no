@@ -2,6 +2,19 @@ talks:
   -
     page_name:
       "spiewak"
+    title:
+      "ROLL YOUR OWN SHAPELESS"
+    abstract:
+      "Shapeless is a remarkable framework. It gives us the power to represent
+      astonishingly rich constraints and generalize code over very broad
+      structural classes, but it isn't magic! The tools with which shapeless is
+      crafted are present in your version of scalac just as much as they are in
+      Miles Sabin's, and learning to take advantage of them unlocks a rich
+      palette of expression otherwise untapped in the language. In this talk,
+      we will recreate some of the major elements of shapeless, learning how to
+      harness a fully armed and operational type system, all while avoiding any
+      hint of macro programming! Particular focus will be given to understanding
+      the general patterns and ideas involved, and not just the end result."
     speakers:
       -
         name:
@@ -19,46 +32,10 @@ talks:
           "@djspiewak"
         twitter_link:
           "https://twitter.com/djspiewak"
-    title:
-      "ROLL YOUR OWN SHAPELESS"
-    abstract:
-      "Shapeless is a remarkable framework. It gives us the power to represent
-      astonishingly rich constraints and generalize code over very broad
-      structural classes, but it isn't magic! The tools with which shapeless is
-      crafted are present in your version of scalac just as much as they are in
-      Miles Sabin's, and learning to take advantage of them unlocks a rich
-      palette of expression otherwise untapped in the language. In this talk,
-      we will recreate some of the major elements of shapeless, learning how to
-      harness a fully armed and operational type system, all while avoiding any
-      hint of macro programming! Particular focus will be given to understanding
-      the general patterns and ideas involved, and not just the end result."
 
   -
     page_name:
       "torreborre"
-    speakers:
-      -
-        name:
-          "ERIC TORREBORRE"
-        bio:
-          "<p>
-          Eric Torreborre is a software developer living in Berlin, working for
-          Zalando.
-          He is the creator of the specs2 library for software specifications in
-          Scala.
-          </p>
-          <p>
-          Scala has been his gateway drug to functional programming and made him
-          a more satisfied developer.
-          When he finally understands what he is doing he tries to share it with
-          the rest of the world.
-          </p>"
-        image:
-          "torreborre.png"
-        twitter_handle:
-          "@etorreborre"
-        twitter_link:
-          "https://twitter.com/etorreborre"
     title:
       "THE EFF MONAD, ONE MONAD TO RULE THEM ALL"
     abstract:
@@ -96,10 +73,49 @@ talks:
         </li>
       </ul>
       </p>"
+    speakers:
+      -
+        name:
+          "ERIC TORREBORRE"
+        bio:
+          "<p>
+          Eric Torreborre is a software developer living in Berlin, working for
+          Zalando.
+          He is the creator of the specs2 library for software specifications in
+          Scala.
+          </p>
+          <p>
+          Scala has been his gateway drug to functional programming and made him
+          a more satisfied developer.
+          When he finally understands what he is doing he tries to share it with
+          the rest of the world.
+          </p>"
+        image:
+          "torreborre.png"
+        twitter_handle:
+          "@etorreborre"
+        twitter_link:
+          "https://twitter.com/etorreborre"
 
   -
     page_name:
       "seeberger"
+    title:
+      "REACTIVE MICROSERVICES WITH AKKA AND DOCKER"
+    abstract:
+      "<p>
+      Akka is a toolkit for building elastic and resilient distributed
+      systems and Docker makes shipping and running those distributed
+      systems easy as never before.
+      </p>
+      <p>
+      In this talk we will briefly introduce you to the basics of Akka and
+      Docker and then show how you can use these innovative technologies to
+      build and run really Reactive micorservices.
+      </p>
+      <p>
+      Don’t expect too many slides, but be prepared for live demos.
+      </p>"
     speakers:
       -
         name:
@@ -120,26 +136,25 @@ talks:
           "@hseeberger"
         twitter_link:
           "https://twitter.com/hseeberger"
-    title:
-      "REACTIVE MICROSERVICES WITH AKKA AND DOCKER"
-    abstract:
-      "<p>
-      Akka is a toolkit for building elastic and resilient distributed
-      systems and Docker makes shipping and running those distributed
-      systems easy as never before.
-      </p>
-      <p>
-      In this talk we will briefly introduce you to the basics of Akka and
-      Docker and then show how you can use these innovative technologies to
-      build and run really Reactive micorservices.
-      </p>
-      <p>
-      Don’t expect too many slides, but be prepared for live demos.
-      </p>"
 
   -
     page_name:
       "hoest_winje"
+    title:
+      "INFINITE LAMBDA CALCULUS"
+    abstract:
+      "<p>
+      Last year, on flatMap(Oslo): Jonas and Einar found that they could write
+      safe programs if they employed big lambdas (types) to watch over the
+      small lambdas (expressions), in a typed lambda calculus. That way, the
+      small lambdas wouldn't form terms that would run off to compute forever.
+      </p>
+      <p>
+      This year, on flatMap(Oslo): Jonas and Einar return to investigate the
+      nature of such renegade terms. Are they any good? Can we do something
+      useful with them? And, more importantly, can we do something useless?
+      Join Jonas and Einar as they boldly go where types say no!
+      </p>"
     speakers:
       -
         name:
@@ -172,21 +187,6 @@ talks:
           "@JonasWinje"
         twitter_link:
           "https://twitter.com/JonasWinje"
-    title:
-      "INFINITE LAMBDA CALCULUS"
-    abstract:
-      "<p>
-      Last year, on flatMap(Oslo): Jonas and Einar found that they could write
-      safe programs if they employed big lambdas (types) to watch over the
-      small lambdas (expressions), in a typed lambda calculus. That way, the
-      small lambdas wouldn't form terms that would run off to compute forever.
-      </p>
-      <p>
-      This year, on flatMap(Oslo): Jonas and Einar return to investigate the
-      nature of such renegade terms. Are they any good? Can we do something
-      useful with them? And, more importantly, can we do something useless?
-      Join Jonas and Einar as they boldly go where types say no!
-      </p>"
 
 #  -
 #    page_name:
@@ -223,22 +223,6 @@ talks:
   -
     page_name:
       "hupel"
-    speakers:
-      -
-        name:
-          "LARS HUPEL"
-        bio:
-          "Lars is a PhD student in Munich, Germany, working in the area of theorem
-            proving. He has been using Scala for quite a while now, and is known as
-            one of the founders of the typelevel initiative which is dedicated to
-            providing principled, type-driven Scala libraries. He also talks about
-            Haskell and Isabelle a lot."
-        image:
-          "hupel.png"
-        twitter_handle:
-          "@larsr_h"
-        twitter_link:
-          "https://twitter.com/larsr_h"
     title:
       "HOW TO TEST proper{t,l}y"
     abstract:
@@ -255,3 +239,19 @@ talks:
       In this talk, I'll give an overview of the state of the art of property
       testing in $X and show some common use cases, techniques and pitfalls.
       </p>"
+    speakers:
+      -
+        name:
+          "LARS HUPEL"
+        bio:
+          "Lars is a PhD student in Munich, Germany, working in the area of theorem
+            proving. He has been using Scala for quite a while now, and is known as
+            one of the founders of the typelevel initiative which is dedicated to
+            providing principled, type-driven Scala libraries. He also talks about
+            Haskell and Isabelle a lot."
+        image:
+          "hupel.png"
+        twitter_handle:
+          "@larsr_h"
+        twitter_link:
+          "https://twitter.com/larsr_h"
