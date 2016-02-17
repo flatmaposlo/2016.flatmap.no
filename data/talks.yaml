@@ -1,0 +1,257 @@
+talks:
+  -
+    page_name:
+      "spiewak"
+    speakers:
+      -
+        name:
+          "DANIEL SPIEWAK"
+        bio:
+          "Daniel Spiewak is a software developer based out of Boulder, CO. Over the
+          years, he has worked with Java, Scala, Ruby, C/C++, ML, Clojure and
+          several experimental languages. He currently spends most of his free time
+          researching parser theory and methodologies, particularly areas where the
+          field intersects with functional language design, domain-specific
+          languages and type theory."
+        image:
+          "spiewak.png"
+        twitter_handle:
+          "@djspiewak"
+        twitter_link:
+          "https://twitter.com/djspiewak"
+    title:
+      "ROLL YOUR OWN SHAPELESS"
+    abstract:
+      "Shapeless is a remarkable framework. It gives us the power to represent
+      astonishingly rich constraints and generalize code over very broad
+      structural classes, but it isn't magic! The tools with which shapeless is
+      crafted are present in your version of scalac just as much as they are in
+      Miles Sabin's, and learning to take advantage of them unlocks a rich
+      palette of expression otherwise untapped in the language. In this talk,
+      we will recreate some of the major elements of shapeless, learning how to
+      harness a fully armed and operational type system, all while avoiding any
+      hint of macro programming! Particular focus will be given to understanding
+      the general patterns and ideas involved, and not just the end result."
+
+  -
+    page_name:
+      "torreborre"
+    speakers:
+      -
+        name:
+          "ERIC TORREBORRE"
+        bio:
+          "<p>
+          Eric Torreborre is a software developer living in Berlin, working for
+          Zalando.
+          He is the creator of the specs2 library for software specifications in
+          Scala.
+          </p>
+          <p>
+          Scala has been his gateway drug to functional programming and made him
+          a more satisfied developer.
+          When he finally understands what he is doing he tries to share it with
+          the rest of the world.
+          </p>"
+        image:
+          "torreborre.png"
+        twitter_handle:
+          "@etorreborre"
+        twitter_link:
+          "https://twitter.com/etorreborre"
+    title:
+      "THE EFF MONAD, ONE MONAD TO RULE THEM ALL"
+    abstract:
+      "<p>
+      Monad transformers are a neat way to compose effectul computations:
+      pass some configuration, read/write from disk, track errors...
+      However they can be a bit cumbersome to deal with, especially if you
+      want to use different stacks sharing some common effects:
+      for example a stack to interact with AWS and another one for Hadoop
+      computations.
+      </p>
+
+      <p>
+      This talk will shortly introduce monad transformers in Scala and their
+      drawbacks then present the Eff monad.
+      </p>
+      <p>
+      The Eff monad has some really interesting properties:
+
+      <ul>
+        <li>
+          effects can be developed completely independently from each other
+        </li>
+        <li>
+          effects can be interpreted in different ways and the interpreters
+          can be composed together
+        </li>
+        <li>
+          it is based on an efficient \"Free monad\"
+          (avoiding the issue of quadratic flatMaps)
+        </li>
+        <li>
+          with the Eff monad you will never have to re-implement the Monad
+          operations (point / flatMap) again!
+        </li>
+      </ul>
+      </p>"
+
+  -
+    page_name:
+      "seeberger"
+    speakers:
+      -
+        name:
+          "HEIKO SEEBERGER"
+        bio:
+          "<p>
+          Heiko Seeberger is Fellow at codecentric and an internationally renowned
+          expert on Scala and Akka. He has more than 20 years of experience in
+          consulting and software development.
+          </p>
+
+          <p>
+          Heiko tweets under @hseeberger and blogs under heikoseeberger.de.
+          </p>"
+        image:
+          "seeberger.png"
+        twitter_handle:
+          "@hseeberger"
+        twitter_link:
+          "https://twitter.com/hseeberger"
+    title:
+      "REACTIVE MICROSERVICES WITH AKKA AND DOCKER"
+    abstract:
+      "<p>
+      Akka is a toolkit for building elastic and resilient distributed
+      systems and Docker makes shipping and running those distributed
+      systems easy as never before.
+      </p>
+      <p>
+      In this talk we will briefly introduce you to the basics of Akka and
+      Docker and then show how you can use these innovative technologies to
+      build and run really Reactive micorservices.
+      </p>
+      <p>
+      Don’t expect too many slides, but be prepared for live demos.
+      </p>"
+
+  -
+    page_name:
+      "hoest_winje"
+    speakers:
+      -
+        name:
+          "EINAR W. HØST"
+        bio:
+          "Einar W. Høst is an unapologetic ivory tower zealot who programs
+          computers at NRK. His heretic views include thinking before programming
+          and making drawings to understand things better. This arrogant mindset
+          no doubt stems from years of doing nothing of value while obtaining a
+          PhD in Computer Science from the University of Oslo."
+        image:
+          "hoest.png"
+        twitter_handle:
+          "@einarwh"
+        twitter_link:
+          "https://twitter.com/einarwh"
+      -
+        name:
+          "JONAS WINJE"
+        bio:
+          "Jonas is a construKction worker at Computas and a subclass of Animal.
+          He's got an MSc in Computer Science from the University of Oslo andalso
+          really likes programming languages and dogs. Passionate about Enterprise
+          Software Engineering. Dog is more like an interface or a trait than like
+          a class; you can have like a bunny and like that can be your dog if you
+          want."
+        image:
+          "winje.png"
+        twitter_handle:
+          "@JonasWinje"
+        twitter_link:
+          "https://twitter.com/JonasWinje"
+    title:
+      "INFINITE LAMBDA CALCULUS"
+    abstract:
+      "<p>
+      Last year, on flatMap(Oslo): Jonas and Einar found that they could write
+      safe programs if they employed big lambdas (types) to watch over the
+      small lambdas (expressions), in a typed lambda calculus. That way, the
+      small lambdas wouldn't form terms that would run off to compute forever.
+      </p>
+      <p>
+      This year, on flatMap(Oslo): Jonas and Einar return to investigate the
+      nature of such renegade terms. Are they any good? Can we do something
+      useful with them? And, more importantly, can we do something useless?
+      Join Jonas and Einar as they boldly go where types say no!
+      </p>"
+
+#  -
+#    page_name:
+#      "pajer"
+#    speakers:
+#      -
+#        name:
+#          "ALISSA PAJER"
+#        bio:
+#          ""
+#        image:
+#          "pajer.png"
+#        twitter_handle:
+#          "@alissapajer"
+#        twitter_link:
+#          "https://twitter.com/alissapajer"
+#    title:
+#      ""
+#    abstract:
+#      "<p>Product types and coproduct types are ubiquitous in functional
+#      programming. In fact, it would be pretty challenging to program without
+#      them! In this talk, we will consider examples of products and coproducts
+#      and then discuss how we can view them as category theory constructs.
+#      </p>
+#      <p>
+#      We will then generalize our understanding of these types, defining them
+#      abstractly in terms of the limit and colimit.
+#      </p>
+#      <p>
+#      From there, we will explore other examples of limits in functional
+#      programming to see what surprises they uncover.
+#      </p>"
+
+  -
+    page_name:
+      "hupel"
+    speakers:
+      -
+        name:
+          "LARS HUPEL"
+        bio:
+          "Lars is a PhD student in Munich, Germany, working in the area of theorem
+            proving. He has been using Scala for quite a while now, and is known as
+            one of the founders of the typelevel initiative which is dedicated to
+            providing principled, type-driven Scala libraries. He also talks about
+            Haskell and Isabelle a lot."
+        image:
+          "hupel.png"
+        twitter_handle:
+          "@larsr_h"
+        twitter_link:
+          "https://twitter.com/larsr_h"
+    title:
+      "HOW TO TEST proper{t,l}y"
+    abstract:
+      "<p>
+      Writing unit tests is pretty much established practice and in addition
+      to that, property testing has caught up on popularity. Most functional
+      languages have one, sometimes even many implementations. But \"property
+      testing\" has a lot of aspects: randomized or exhaustive, minimization
+      and generalization of counter examples, custom generators and filters,
+      to name a few. Very often, property tests don't exploit all the features
+      of the framework.
+      </p>
+      <p>
+      In this talk, I'll give an overview of the state of the art of property
+      testing in $X and show some common use cases, techniques and pitfalls.
+      </p>"

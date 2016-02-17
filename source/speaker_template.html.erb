@@ -1,0 +1,27 @@
+<%= partial "description_inverse" %>
+<section class="speakers" id="session">
+    <div class="row">
+      <div class="text-center">
+        <h3><%= title %></h3>
+      </div>
+      <p class="spaced">
+          <%= abstract %>
+      </p>
+
+      <% speakers.each do |speaker| %>
+
+      <div class="text-center">
+        <a name="<%= speaker.name %>"></a>
+        <p><img src="/images/<%= speaker.image %>" height="180" width="180"/></p>
+        <h3><%= speaker.name %></h3>
+        <p><a href="<%= speaker.twitter_link %>"><%= speaker.twitter_handle %></a></p>
+      </div>
+      <p class="spaced">
+        <%= speaker.bio %>
+      </p>
+
+      <% end %>
+  </div>
+</section>
+<%= partial "sponsors" %>
+<%= partial "about" %>

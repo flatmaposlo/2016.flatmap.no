@@ -42,3 +42,12 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
+data.talks.talks.each do |talk|
+  proxy "/#{talk.page_name}.html", "/speaker_template.html", :locals => {
+    :page_name => talk.page_name,
+    :title => talk.title,
+    :abstract => talk.abstract,
+    :speakers => talk.speakers
+     }, :ignore => true
+end
