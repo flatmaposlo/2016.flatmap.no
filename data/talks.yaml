@@ -188,38 +188,6 @@ talks:
         twitter_link:
           "https://twitter.com/JonasWinje"
 
-#  -
-#    page_name:
-#      "pajer"
-#    speakers:
-#      -
-#        name:
-#          "ALISSA PAJER"
-#        bio:
-#          ""
-#        image:
-#          "pajer.png"
-#        twitter_handle:
-#          "@alissapajer"
-#        twitter_link:
-#          "https://twitter.com/alissapajer"
-#    title:
-#      ""
-#    abstract:
-#      "<p>Product types and coproduct types are ubiquitous in functional
-#      programming. In fact, it would be pretty challenging to program without
-#      them! In this talk, we will consider examples of products and coproducts
-#      and then discuss how we can view them as category theory constructs.
-#      </p>
-#      <p>
-#      We will then generalize our understanding of these types, defining them
-#      abstractly in terms of the limit and colimit.
-#      </p>
-#      <p>
-#      From there, we will explore other examples of limits in functional
-#      programming to see what surprises they uncover.
-#      </p>"
-
   -
     page_name:
       "hupel"
@@ -255,3 +223,39 @@ talks:
           "@larsr_h"
         twitter_link:
           "https://twitter.com/larsr_h"
+
+  -
+    page_name:
+      "pajer"
+    speakers:
+      -
+        name:
+          "ALISSA PAJER"
+        bio:
+          "Alissa Pajer began her functional programming career as a Scala
+          engineer at Precog, and now she works in Scala at RichRelevance.
+          Before her coding days, she studied pure mathematics. She currently
+          lives in Munich, Germany, where she spends her non-computer time
+          hiking, running, swimming, and cycling."
+        image:
+          "pajer.png"
+        twitter_handle:
+          "@alissapajer"
+        twitter_link:
+          "https://twitter.com/alissapajer"
+    title:
+      "PRODUCTS, LIMITS, AND MORE!"
+    abstract:
+      "<p>Product types and coproduct types are ubiquitous in functional
+      programming. In fact, it would be pretty challenging to program without
+      them! In this talk, we will consider examples of products and coproducts
+      and then discuss how we can view them as category theory constructs.
+      </p>
+      <p>
+      We will then generalize our understanding of these types, defining them
+      abstractly in terms of the limit and colimit.
+      </p>
+      <p>
+      From there, we will explore other examples of limits in functional
+      programming to see what surprises they uncover.
+      </p>"
