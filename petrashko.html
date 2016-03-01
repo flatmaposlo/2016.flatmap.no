@@ -63,7 +63,7 @@
           </a>
       </section>
     </section>
-    <div> <!--class="torreborre">-->
+    <div> <!--class="petrashko">-->
       <section class="description_inverse text-center">
   <h2><strong>flatMap(Oslo)</strong> is a functional programming conference <br/>
   with focus on Scala and the Java Virtual Machine</h2>
@@ -72,23 +72,22 @@
 <section class="speakers" id="session">
     <div class="row">
       <div class="text-center">
-        <h3>The Eff monad, one monad to rule them all</h3>
+        <h3>AutoSpecialization in Dotty</h3>
       </div>
       <p class="spaced">
-          <p> Monad transformers are a neat way to compose effectul computations: pass some configuration, read/write from disk, track errors... However they can be a bit cumbersome to deal with, especially if you want to use different stacks sharing some common effects: for example a stack to interact with AWS and another one for Hadoop computations. </p>
-<p> This talk will shortly introduce monad transformers in Scala and their drawbacks then present the Eff monad. </p> <p> The Eff monad has some really interesting properties:
-<ul> <li> effects can be developed completely independently from each other </li> <li> effects can be interpreted in different ways and the interpreters can be composed together </li> <li> it is based on an efficient "Free monad" (avoiding the issue of quadratic flatMaps) </li> <li> with the Eff monad you will never have to re-implement the Monad operations (point / flatMap) again! </li> </ul> </p>
+          <p>Seven years ago, specialization arrived in Scala, offering a way to improve the performance of methods called with primitive values, thanks to Iulian Dragos. We have learned a lot since then, so it's time to revisit the topic.</p>
+<p>The Dotty Linker analyses your program and its dependencies to apply a new specialization scheme. It builds on our experience from Specialization, Miniboxing and the Valhalla Project, and can drastically reduce the size of the emitted bytecode. And, best of all, it's always on, happens behind the scenes without annotations, and can produce speedups in excess of 20x. Additionally, it "just works" on Scala collections.</p>
       </p>
 
 
       <div class="text-center">
-        <a name="ERIC TORREBORRE"></a>
-        <p><img src="/images/torreborre.png" height="180" width="180"/></p>
-        <h3>ERIC TORREBORRE</h3>
-        <p><a href="https://twitter.com/etorreborre">@etorreborre</a></p>
+        <a name="DMITRY PETRASHKO"></a>
+        <p><img src="/images/petrashko.png" height="180" width="180"/></p>
+        <h3>DMITRY PETRASHKO</h3>
+        <p><a href="https://twitter.com/darkdimius">@darkdimius</a></p>
       </div>
       <p class="spaced">
-        <p> Eric Torreborre is a software developer living in Berlin, working for Zalando. He is the creator of the specs2 library for software specifications in Scala. </p> <p> Scala has been his gateway drug to functional programming and made him a more satisfied developer. When he finally understands what he is doing he tries to share it with the rest of the world. </p>
+        Dmitry has been working on Scala since 2013, when he joined Martin Odersky's research lab at EPFL, working on ScalaBlitz, macro-generated collections for Scala. Since 2015 he has been working on the Dotty Compiler. He designed Mini-Phases, ported the JVM backend, implemented support for Java 8 lambdas and default methods, along withvarious other parts of the compiler, including the pattern matcher, lazy vals, tail recursion transformations and parts of erasure and mixin composition. He currently works on implementing the Dotty Linker, an optimizing compiler based on Dotty.
       </p>
 
   </div>
