@@ -3,7 +3,7 @@ talks:
     page_name:
       "spiewak"
     title:
-      "ROLL YOUR OWN SHAPELESS"
+      "Roll your own Shapeless"
     abstract:
       "Shapeless is a remarkable framework. It gives us the power to represent
       astonishingly rich constraints and generalize code over very broad
@@ -37,7 +37,7 @@ talks:
     page_name:
       "torreborre"
     title:
-      "THE EFF MONAD, ONE MONAD TO RULE THEM ALL"
+      "The Eff monad, one monad to rule them all"
     abstract:
       "<p>
       Monad transformers are a neat way to compose effectul computations:
@@ -101,7 +101,7 @@ talks:
     page_name:
       "seeberger"
     title:
-      "REACTIVE MICROSERVICES WITH AKKA AND DOCKER"
+      "Reactive microservices with Akka and Docker"
     abstract:
       "<p>
       Akka is a toolkit for building elastic and resilient distributed
@@ -141,7 +141,7 @@ talks:
     page_name:
       "hoest_winje"
     title:
-      "INFINITE LAMBDA CALCULUS"
+      "Infinite lambda calculus"
     abstract:
       "<p>
       Last year, on flatMap(Oslo): Jonas and Einar found that they could write
@@ -192,7 +192,7 @@ talks:
     page_name:
       "hupel"
     title:
-      "HOW TO TEST proper{t,l}y"
+      "How to test proper{t,l}y"
     abstract:
       "<p>
       Writing unit tests is pretty much established practice and in addition
@@ -244,7 +244,7 @@ talks:
         twitter_link:
           "https://twitter.com/alissapajer"
     title:
-      "PRODUCTS, LIMITS, AND MORE!"
+      "Products, limits, and more!"
     abstract:
       "<p>Product types and coproduct types are ubiquitous in functional
       programming. In fact, it would be pretty challenging to program without
@@ -259,3 +259,81 @@ talks:
       From there, we will explore other examples of limits in functional
       programming to see what surprises they uncover.
       </p>"
+
+
+  -
+    page_name:
+      "petrashko"
+    speakers:
+      -
+        name:
+          "DMITRY PETRASHKO"
+        bio:
+          "Dmitry has been working on Scala since 2013, when he joined Martin
+          Odersky's research lab at EPFL, working on ScalaBlitz, macro-generated
+          collections for Scala. Since 2015 he has been working on the Dotty
+          Compiler. He designed Mini-Phases, ported the JVM backend, implemented
+          support for Java 8 lambdas and default methods, along withvarious
+          other parts of the compiler, including the pattern matcher, lazy vals,
+          tail recursion transformations and parts of erasure and mixin
+          composition. He currently works on implementing the Dotty Linker, an
+          optimizing compiler based on Dotty."
+        image:
+          "petrashko.png"
+        twitter_handle:
+          "@darkdimius"
+        twitter_link:
+          "https://twitter.com/darkdimius"
+    title:
+      "AutoSpecialization in Dotty"
+    abstract:
+      "<p>Seven years ago, specialization arrived in Scala, offering a way to
+      improve the performance of methods called with primitive values, thanks
+      to Iulian Dragos. We have learned a lot since then, so it's time to
+      revisit the topic.</p>
+
+      <p>The Dotty Linker analyses your program and its dependencies to apply a
+      new specialization scheme. It builds on our experience from
+      Specialization, Miniboxing and the Valhalla Project, and can drastically
+      reduce the size of the emitted bytecode. And, best of all, it's always on,
+      happens behind the scenes without annotations, and can produce speedups
+      in excess of 20x. Additionally, it \"just works\" on Scala
+      collections.</p>"
+
+
+  -
+    page_name:
+      "sabin"
+    speakers:
+      -
+        name:
+          "MILES SABIN"
+        bio:
+          "Miles has been doing stuff with Scala for more than ten years,
+          currently with Underscore Consulting. He is a cofounder of Typelevel
+          and his best known project, the Scala generic programming library
+          shapeless, is the weapon of choice wherever boilerplate needs to be
+          scrapped or arities abstracted over."
+        image:
+          "sabin.png"
+        twitter_handle:
+          "@milessabin"
+        twitter_link:
+          "https://twitter.com/milessabin"
+    title:
+      "Fighting SI-2712 with dependent types and type level continuation passing"
+    abstract:
+      "<p>While working on the Kittens project, which uses shapeless to derive
+      Cats type class instances for Scala algebraic data types, I repeatedly
+      found myself running straight into the brick wall of the infamous
+      Scala compiler bug that's listed in the Scala issue tracker as
+      SI-2712. Game over? No, Challenge Accepted!</p>
+
+      <p>In this talk I'll explain what SI-2712 is and why it's a problem,
+      especially in libraries like Cats which make extensive use of type
+      classes, like Functor, which are indexed by higher kinded types. I'll
+      explain some of the techniques that can be used to work around it,
+      both old, like Unapply, and new, such as the continuation passing
+      style inspired approach I took in shapeless to support Kittens. I'll
+      also talk about the prospect of trying to fix SI-2712 in Typelevel
+      Scala rather than just working around it.</p>"
