@@ -337,3 +337,54 @@ talks:
       style inspired approach I took in shapeless to support Kittens. I'll
       also talk about the prospect of trying to fix SI-2712 in Typelevel
       Scala rather than just working around it.</p>"
+
+
+  -
+    page_name:
+      "rundberget"
+    speakers:
+      -
+        name:
+          "MAGNUS RUNDBERGET"
+        bio:
+          "<p>Magnus Rundberget is a consultant and programmer working for
+          Kodemaker. He's spent most of his working years on the JVM platform
+          developing web applications. The last couple of years he's become
+          increasingly interested in functional programming and languages. His
+          introduction to functional programming came when he started hacking
+          Light Table plugins using ClojureScript. More recently he's worked on
+          projects using Clojure/ClojureScript. When he eventually discovered
+          Elm he finally found an approachable entry to statically typed
+          functional programming. Just for kicks he authored an Elm plugin for
+          Light Table (https://github.com/rundis/elm-light)</p>
+
+          <p>Magnus spends most of his spare time helping out maintaining Light
+          Table, learning about functional programming and blogging
+          (http://rundis.github.io/blog/index.html) about things he makes or
+          learns along the way.</p>"
+        image:
+          "rundberget.png"
+        twitter_handle:
+          "@mrundberget"
+        twitter_link:
+          "https://twitter.com/mrundberget"
+    title:
+      "Functional Reactive Programming for the Web using Elm"
+    abstract:
+      "<p>Elm is a beautiful statically typed functional language, carefully
+      engineered to make it easy and fun to write great apps for the browser.
+      Elm has no runtime exceptions, probably the most helpful compiler you've
+      ever seen and it's really fast. Elm is so much more than just another
+      language that transpiles to JavaScript. Elm is a plaform that tries
+      really hard to guide you in how you should write your applications.
+      Elm also comes with some key constraints. There is no opt out on
+      immutability, you won't find any mutable global state and interop with
+      JavaScript for client apps is controlled.</p>
+
+      <p>In this talk you will get an overview of how Elm embraces (Functional)
+      Reactive Programming using Signals. You will learn about the Elm platform
+      and the core concepts that underpins the Elm Architecture. The brunt of
+      the talk will be spent on a practical example where we will build a tiny
+      web app from scratch.We will wrap up with a short summary on what I think
+      is great about Elm, what the constraints of Elm might mean for you and
+      what needs to improve before Elm can become mainstream.</p>"
