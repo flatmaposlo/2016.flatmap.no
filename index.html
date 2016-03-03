@@ -130,6 +130,7 @@
           <li><a href="pajer.html#session"><img src="images/pajer.png" height="150" width="150" /><p class="named">ALISSA PAJER</p></a></li>
           <li><a href="petrashko.html#session"><img src="images/petrashko.png" height="150" width="150" /><p class="named">DMITRY PETRASHKO</p></a></li>
           <li><a href="sabin.html#session"><img src="images/sabin.png" height="150" width="150" /><p class="named">MILES SABIN</p></a></li>
+          <li><a href="rundberget.html#session"><img src="images/rundberget.png" height="150" width="150" /><p class="named">MAGNUS RUNDBERGET</p></a></li>
     </ul>
   </div>
 </section>
@@ -142,6 +143,7 @@
     <p><a href="http://www.teknologihuset.no/">Teknologihuset</a> is located in <a href="https://www.google.no/maps/place/Pilestredet+56,+0167+Oslo/@59.9234517,10.7295967,17z/data=!4m12!1m9!4m8!1m0!1m6!1m2!1s0x46416e784bc2926d:0xf586945533cf12de!2sPilestredet+56,+0167+Oslo!2m2!1d10.7317854!2d59.923449!3m1!1s0x46416e784bc2926d:0xf586945533cf12de?hl=en">Pilestredet 56</a>, not far from the Oslo city center.</p>
   </div>
 </section>
+<div id="map" style="height: 600px; width: 100%;"></div>
 <section class="sponsors">
   <a name="sponsors"></a>
   <div class="row text-center">
@@ -223,5 +225,191 @@
     </div>
     <script src="/javascripts/foundation.min.js"></script>
     <script src="/javascripts/all.js"></script>
+
+    <!--<div id="map" style="height:100%; width:100%;"></div>-->
+
+    <script>
+
+      var map;
+      var service;
+      var infowindow;
+
+      function initMap() {
+
+        var customMapType = new google.maps.StyledMapType(
+          [
+              {
+                  "featureType": "administrative.land_parcel",
+                  "elementType": "all",
+                  "stylers": [
+                      {
+                          "visibility": "off"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "landscape.man_made",
+                  "elementType": "all",
+                  "stylers": [
+                      {
+                          "visibility": "on"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "poi",
+                  "elementType": "labels",
+                  "stylers": [
+                      {
+                          "visibility": "on"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "road",
+                  "elementType": "labels",
+                  "stylers": [
+                      {
+                          "visibility": "simplified"
+                      },
+                      {
+                          "lightness": 20
+                      }
+                  ]
+              },
+              {
+                  "featureType": "road.highway",
+                  "elementType": "geometry",
+                  "stylers": [
+                      {
+                          "hue": "#f49935"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "road.highway",
+                  "elementType": "labels",
+                  "stylers": [
+                      {
+                          "visibility": "simplified"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "road.arterial",
+                  "elementType": "geometry",
+                  "stylers": [
+                      {
+                          "hue": "#fad959"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "road.arterial",
+                  "elementType": "labels",
+                  "stylers": [
+                      {
+                          "visibility": "off"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "road.local",
+                  "elementType": "geometry",
+                  "stylers": [
+                      {
+                          "visibility": "simplified"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "road.local",
+                  "elementType": "labels",
+                  "stylers": [
+                      {
+                          "visibility": "simplified"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "transit",
+                  "elementType": "all",
+                  "stylers": [
+                      {
+                          "visibility": "on"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "water",
+                  "elementType": "all",
+                  "stylers": [
+                      {
+                          "hue": "#a1cdfc"
+                      },
+                      {
+                          "saturation": 30
+                      },
+                      {
+                          "lightness": 49
+                      }
+                  ]
+              }
+          ]
+
+        );
+        var customMapTypeId = 'custom_style';
+
+        var pyrmont = new google.maps.LatLng(59.9236918, 10.7322585);
+
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: pyrmont,
+          zoom: 15,
+          scrollwheel: false,
+          zoomControl: true,
+          disableDefaultUI: true,
+          mapTypeControlOptions: {
+            mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
+          }
+        });
+
+        map.mapTypes.set(customMapTypeId, customMapType);
+        map.setMapTypeId(customMapTypeId);
+
+        service = new google.maps.places.PlacesService(map);
+
+        var request = {
+          location: pyrmont,
+          radius: '500',
+          query: 'teknologihuset'
+        };
+
+        service.textSearch(request, callback);
+      }
+
+      function callback(results, status) {
+        if (status == google.maps.places.PlacesServiceStatus.OK) {
+          for (var i = 0; i < results.length; i++) {
+            var place = results[i];
+            createMarker(results[i]);
+          }
+        }
+      }
+
+      function createMarker(place) {
+        var placeLoc = place.geometry.location;
+        var marker = new google.maps.Marker({
+          map: map,
+          position: place.geometry.location
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+          infowindow.setContent(place.name);
+          infowindow.open(map, this);
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBje1LpXjHceReQ0El1tuLCEg9NzOGhew8&libraries=places&callback=initMap"
+    async defer></script>
   </body>
 </html>

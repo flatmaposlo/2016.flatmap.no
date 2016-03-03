@@ -1,3 +1,6 @@
+#map {
+  height: 100%;
+}
 /* line 29, ../scss/app.scss */
 p a:hover {
   text-decoration: underline;
