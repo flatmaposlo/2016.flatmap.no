@@ -388,3 +388,160 @@ talks:
       web app from scratch.We will wrap up with a short summary on what I think
       is great about Elm, what the constraints of Elm might mean for you and
       what needs to improve before Elm can become mainstream.</p>"
+
+
+  -
+    page_name:
+      "mcadams"
+    speakers:
+      -
+        name:
+          "BRENDAN MCADAMS"
+        bio:
+          "<p>Brendan McAdams works as a Senior Consultant & Trainer for
+          BoldRadius Solutions, helping customers through consulting and
+          training on the Typesafe Reactive Platform. In the past, Brendan has
+          worked at Netflix building APIs, worked on a serious of financial
+          trading platforms, served as a Consultant & Trainer at Typesafe, and
+          was an was an early employee of MongoDB.</p>
+
+          <p>While at MongoDB, he created
+          the integration drivers between MongoDB and Scala, as well as MongoDB
+          and Hadoop. Brendan was also an early contributor to the Akka
+          project, with one of the earliest Akka production deployments under
+          his belt.</p>"
+        image:
+          "mcadams.png"
+        twitter_handle:
+          "@rit"
+        twitter_link:
+          "https://twitter.com/rit"
+    title:
+      "Macros for Mortals"
+    abstract:
+      "<p>Since their introduction in 2.10, Macros have veritably taken Scala by
+      storm. They pop up everywhere, often providing elegant syntax extensions
+      for Scala libraries – note the prevalence of “sql” string interpolation
+      macros, for example.</p>
+
+      <p>Many developers, however, are scared and confused by Macros – rightly
+      so. Many examples of Macros require deep knowledge of the Scala AST,
+      internals and oddities. But hope exists: newer features like quasiquotes
+      make it ridiculously easy to write powerful Macros with code templating.
+      </p>
+
+      <p>In this talk, we’ll demystify just how Macros work and are constructed,
+      walking through many of the different “types” of Macros that Scala
+      supports. A final focus will be given to the use of the newer Quasiquotes
+      and Annotations features as a way of quickly constructing powerful new
+      code features in your own Scala code.</p>"
+
+
+#  -
+#    page_name:
+#      "vatn"
+#    speakers:
+#      -
+#        name:
+#          "TORBJØRN VATN"
+#        bio:
+#          "<p>Torbjørn Vatn is currently a Senior Platform Engineer at the
+#          Norwegian startup Unacast where he programs Scala, Devs'n'Ops and
+#          brews a lot of coffee. He has 4-5 years experience as a full-time
+#          Scala developer working for both penger.no and BEKK Consulting.</p>"
+#        image:
+#          "vatn.png"
+#        twitter_handle:
+#          "@torbjornvatn"
+#        twitter_link:
+#          "https://twitter.com/torbjornvatn"
+#    title:
+#      "Go with the Dataflow!"
+#    abstract:
+#      "<p>A field report on how running a Scala app on Google Container Engine,
+#      interfacing with several of Google Cloud's native services, has worked
+#      out for the engineers at the Norwegian startup Unacast.</p>
+#
+#      <p>We will discuss how we use Pub/Sub, BigQuery and Dataflow from Google
+#      Cloud's BigData feature set, and why we have chosen to use these services
+#      instead of setting up our own Kafka and Spark clusters.</p>
+#
+#      <p>Then we'll have a look at how we package, deploy and run our app as a
+#      pod in Kubernetes hosted on Google Container Engine using fancy ChatOps
+#      tricks. This part will also include a short overview of some of the
+#      logging and monitoring techniques we have applied, including
+#      Dropwizard Metrics + Datadog, Google Cloud Logging and Slack.</p>
+#
+#      <p>Last but not least I'll go into some detail of how it has been to use
+#      the Dataflow Java SDK from Scala, talking about how to define the
+#      Dataflow pipeline in somewhat functionally and what kind of
+#      customizations I had to do to make the experience more Scalaesque.</p>"
+#
+#
+#  -
+#    page_name:
+#      "ford"
+#    speakers:
+#      -
+#        name:
+#          "CHRIS FORD"
+#        bio:
+#          "<p></p>"
+#        image:
+#          "ford.png"
+#        twitter_handle:
+#          "@ctford"
+#        twitter_link:
+#          "https://twitter.com/ctford"
+#    title:
+#      "Klangmeister"
+#    abstract:
+#      "<p>Live music coding, like other forms of programming, can require a lot
+#      of setup to get started. That’s a shame – many newcomers lose their
+#      enthusiasm as they battle editor configuration and hardware quirks.</p>
+#
+#      <p>Klangmeister attacks this problem by hosting a live coding environment
+#      in the most ubiquitous programming environment in the world. Users are
+#      invited to design synthesisers and compose melodies with Clojurescript –
+#      without leaving the comfort of their browser.</p>
+#
+#      <p>In this talk, I'll explain what Klangmeister does, how it does it,
+#      and why.</p>"
+#
+#
+#  -
+#    page_name:
+#      "abrahamsen"
+#    speakers:
+#      -
+#        name:
+#          "IVAR ABRAHAMSEN"
+#        bio:
+#          "<p>Ivar Abrahamsen is a London based consultant at Eray by Flurdy
+#          Ltd (eray.uk). He is an experienced developer and architect with
+#          enterprises and startups. Ivar often presents at clients and also
+#          teaches internal courses. You can find his rants at @flurdy and
+#          flurdy.com.</p>"
+#        image:
+#          "abrahamsen.png"
+#        twitter_handle:
+#          "@flurdy"
+#        twitter_link:
+#          "https://twitter.com/flurdy"
+#    title:
+#      "Scaling Scala"
+#    abstract:
+#      "<p>Not performance but scaling people (number of)</p>
+#
+#      <p>With Scala becoming more mainstream it is more often the weapon of
+#      choice for companies that need to scale. So what are the conventions and
+#      ideas to consider for your Scala projects when your
+#      project/department/company receive a lot of funding to scale the head
+#      count - massively.</p>
+#
+#      <p>This talk will include recent personal experience with a well funded
+#      Scala based games studio startup (Mind Candy) that went from 50 to over
+#      300 people in a year and then currently at a very well funded public
+#      sector department (HMRC) that grew from a couple of on site teams to 30+
+#      teams and 200+ scala developers.</p>"
+#
