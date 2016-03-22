@@ -99,46 +99,6 @@ talks:
 
   -
     page_name:
-      "seeberger"
-    title:
-      "Reactive microservices with Akka and Docker"
-    abstract:
-      "<p>
-      Akka is a toolkit for building elastic and resilient distributed
-      systems and Docker makes shipping and running those distributed
-      systems easy as never before.
-      </p>
-      <p>
-      In this talk we will briefly introduce you to the basics of Akka and
-      Docker and then show how you can use these innovative technologies to
-      build and run really Reactive micorservices.
-      </p>
-      <p>
-      Don’t expect too many slides, but be prepared for live demos.
-      </p>"
-    speakers:
-      -
-        name:
-          "HEIKO SEEBERGER"
-        bio:
-          "<p>
-          Heiko Seeberger is Fellow at codecentric and an internationally renowned
-          expert on Scala and Akka. He has more than 20 years of experience in
-          consulting and software development.
-          </p>
-
-          <p>
-          Heiko tweets under @hseeberger and blogs under heikoseeberger.de.
-          </p>"
-        image:
-          "seeberger.png"
-        twitter_handle:
-          "@hseeberger"
-        twitter_link:
-          "https://twitter.com/hseeberger"
-
-  -
-    page_name:
       "hoest_winje"
     title:
       "Infinite lambda calculus"
