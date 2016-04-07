@@ -396,6 +396,46 @@ talks:
       and Annotations features as a way of quickly constructing powerful new
       code features in your own Scala code.</p>"
 
+  -
+    page_name:
+      "berg"
+    speakers:
+      -
+        name:
+          "ØYVIND RADDUM BERG"
+        bio:
+          "Øyvind is a consultant and developer from Oslo, working for Arktekk."
+        image:
+          "berg.png"
+        twitter_handle:
+          "@olvindberg"
+        twitter_link:
+          "https://twitter.com/olvindberg"
+    title:
+      "Scala.js - an introduction"
+    abstract:
+      "<p>Scala.js is a safer way to build robust web applications. We have a good programming language,
+        a stable environment and a fantastic selection of cross-compiled libraries.
+      </p>"
+
+      "<p>
+        After this workshop you will be ready to continue coding with Scala.js by yourself.
+      </p>"
+
+      "<p>
+        We will start out by exploring a template sbt project so you can get a feel for how the build pipeline
+        works.
+
+        Participants will then get some intuition about what Scala.js can do and cannot do.
+
+        Finally, we will see how we share source code between client and server,
+        and how we can get awesome type-safe Ajax calls (courtesy of autowire) with
+        automatic Json codec derivation (with uPickle)
+      <p>"
+
+      "<p>
+        Knowledge of Scala is recommended. Frontend experience is beneficial but not at all necessary.
+      </p>"
 
   -
     page_name:
