@@ -416,13 +416,13 @@ talks:
     abstract:
       "<p>Scala.js is a safer way to build robust web applications. We have a good programming language,
         a stable environment and a fantastic selection of cross-compiled libraries.
-      </p>"
+      </p>
 
-      "<p>
+      <p>
         After this workshop you will be ready to continue coding with Scala.js by yourself.
-      </p>"
+      </p>
 
-      "<p>
+      <p>
         We will start out by exploring a template sbt project so you can get a feel for how the build pipeline
         works.
 
@@ -431,9 +431,9 @@ talks:
         Finally, we will see how we share source code between client and server,
         and how we can get awesome type-safe Ajax calls (courtesy of autowire) with
         automatic Json codec derivation (with uPickle)
-      <p>"
+      <p>
 
-      "<p>
+      <p>
         Knowledge of Scala is recommended. Frontend experience is beneficial but not at all necessary.
       </p>"
 
