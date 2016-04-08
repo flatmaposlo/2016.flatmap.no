@@ -437,111 +437,164 @@ talks:
         Knowledge of Scala is recommended. Frontend experience is beneficial but not at all necessary.
       </p>"
 
-#  -
-#    page_name:
-#      "vatn"
-#    speakers:
-#      -
-#        name:
-#          "TORBJØRN VATN"
-#        bio:
-#          "<p>Torbjørn Vatn is currently a Senior Platform Engineer at the
-#          Norwegian startup Unacast where he programs Scala, Devs'n'Ops and
-#          brews a lot of coffee. He has 4-5 years experience as a full-time
-#          Scala developer working for both penger.no and BEKK Consulting.</p>"
-#        image:
-#          "vatn.png"
-#        twitter_handle:
-#          "@torbjornvatn"
-#        twitter_link:
-#          "https://twitter.com/torbjornvatn"
-#    title:
-#      "Go with the Dataflow!"
-#    abstract:
-#      "<p>A field report on how running a Scala app on Google Container Engine,
-#      interfacing with several of Google Cloud's native services, has worked
-#      out for the engineers at the Norwegian startup Unacast.</p>
-#
-#      <p>We will discuss how we use Pub/Sub, BigQuery and Dataflow from Google
-#      Cloud's BigData feature set, and why we have chosen to use these services
-#      instead of setting up our own Kafka and Spark clusters.</p>
-#
-#      <p>Then we'll have a look at how we package, deploy and run our app as a
-#      pod in Kubernetes hosted on Google Container Engine using fancy ChatOps
-#      tricks. This part will also include a short overview of some of the
-#      logging and monitoring techniques we have applied, including
-#      Dropwizard Metrics + Datadog, Google Cloud Logging and Slack.</p>
-#
-#      <p>Last but not least I'll go into some detail of how it has been to use
-#      the Dataflow Java SDK from Scala, talking about how to define the
-#      Dataflow pipeline in somewhat functionally and what kind of
-#      customizations I had to do to make the experience more Scalaesque.</p>"
-#
-#
-#  -
-#    page_name:
-#      "ford"
-#    speakers:
-#      -
-#        name:
-#          "CHRIS FORD"
-#        bio:
-#          "<p></p>"
-#        image:
-#          "ford.png"
-#        twitter_handle:
-#          "@ctford"
-#        twitter_link:
-#          "https://twitter.com/ctford"
-#    title:
-#      "Klangmeister"
-#    abstract:
-#      "<p>Live music coding, like other forms of programming, can require a lot
-#      of setup to get started. That’s a shame – many newcomers lose their
-#      enthusiasm as they battle editor configuration and hardware quirks.</p>
-#
-#      <p>Klangmeister attacks this problem by hosting a live coding environment
-#      in the most ubiquitous programming environment in the world. Users are
-#      invited to design synthesisers and compose melodies with Clojurescript –
-#      without leaving the comfort of their browser.</p>
-#
-#      <p>In this talk, I'll explain what Klangmeister does, how it does it,
-#      and why.</p>"
-#
-#
-#  -
-#    page_name:
-#      "abrahamsen"
-#    speakers:
-#      -
-#        name:
-#          "IVAR ABRAHAMSEN"
-#        bio:
-#          "<p>Ivar Abrahamsen is a London based consultant at Eray by Flurdy
-#          Ltd (eray.uk). He is an experienced developer and architect with
-#          enterprises and startups. Ivar often presents at clients and also
-#          teaches internal courses. You can find his rants at @flurdy and
-#          flurdy.com.</p>"
-#        image:
-#          "abrahamsen.png"
-#        twitter_handle:
-#          "@flurdy"
-#        twitter_link:
-#          "https://twitter.com/flurdy"
-#    title:
-#      "Scaling Scala"
-#    abstract:
-#      "<p>Not performance but scaling people (number of)</p>
-#
-#      <p>With Scala becoming more mainstream it is more often the weapon of
-#      choice for companies that need to scale. So what are the conventions and
-#      ideas to consider for your Scala projects when your
-#      project/department/company receive a lot of funding to scale the head
-#      count - massively.</p>
-#
-#      <p>This talk will include recent personal experience with a well funded
-#      Scala based games studio startup (Mind Candy) that went from 50 to over
-#      300 people in a year and then currently at a very well funded public
-#      sector department (HMRC) that grew from a couple of on site teams to 30+
-#      teams and 200+ scala developers.</p>"
-#
+  -
+    page_name:
+      "vatn"
+    speakers:
+      -
+        name:
+          "TORBJØRN VATN"
+        bio:
+          "<p>Torbjørn Vatn is currently a Senior Platform Engineer at the
+          Norwegian startup Unacast where he programs Scala, Devs'n'Ops and
+          brews a lot of coffee. He has 4-5 years experience as a full-time
+          Scala developer working for both penger.no and BEKK Consulting.</p>"
+        image:
+          "vatn.png"
+        twitter_handle:
+          "@torbjornvatn"
+        twitter_link:
+          "https://twitter.com/torbjornvatn"
+    title:
+      "Go with the Dataflow!"
+    abstract:
+      "<p>A field report on how running a Scala app on Google Container Engine,
+      interfacing with several of Google Cloud's native services, has worked
+      out for the engineers at the Norwegian startup Unacast.</p>
+
+      <p>We will discuss how we use Pub/Sub, BigQuery and Dataflow from Google
+      Cloud's BigData feature set, and why we have chosen to use these services
+      instead of setting up our own Kafka and Spark clusters.</p>
+
+      <p>Then we'll have a look at how we package, deploy and run our app as a
+      pod in Kubernetes hosted on Google Container Engine using fancy ChatOps
+      tricks. This part will also include a short overview of some of the
+      logging and monitoring techniques we have applied, including
+      Dropwizard Metrics + Datadog, Google Cloud Logging and Slack.</p>
+
+      <p>Last but not least I'll go into some detail of how it has been to use
+      the Dataflow Java SDK from Scala, talking about how to define the
+      Dataflow pipeline in somewhat functionally and what kind of
+      customizations I had to do to make the experience more Scalaesque.</p>"
+
+
+  -
+    page_name:
+      "ford"
+    speakers:
+      -
+        name:
+          "CHRIS FORD"
+        bio:
+          "<p>Chris is a certified BABE
+          (Bachelor of Arts, Bachelor of Engineering), and consequentially an
+          idiophile and technophobe. He began to make music with code partly to
+          compensate for his poor technique, and partly because air piano is
+          unsatisfying. When he works, he works for ThoughtWorks, though that
+          isn't all the time.</p>"
+        image:
+          "ford.png"
+        twitter_handle:
+          "@ctford"
+        twitter_link:
+          "https://twitter.com/ctford"
+    title:
+      "Klangmeister"
+    abstract:
+      "<p>Live music coding, like other forms of programming, can require a lot
+      of setup to get started. That’s a shame – many newcomers lose their
+      enthusiasm as they battle editor configuration and hardware quirks.</p>
+
+      <p>Klangmeister attacks this problem by hosting a live coding environment
+      in the most ubiquitous programming environment in the world. Users are
+      invited to design synthesisers and compose melodies with Clojurescript –
+      without leaving the comfort of their browser.</p>
+
+      <p>In this talk, I'll explain what Klangmeister does, how it does it,
+      and why.</p>"
+
+
+  -
+    page_name:
+     "abrahamsen"
+    speakers:
+     -
+       name:
+         "IVAR ABRAHAMSEN"
+       bio:
+         "<p>Ivar Abrahamsen is a London based consultant at Eray by Flurdy Ltd
+         (eray.uk). He is an experienced developer and architect from a mix of
+         large consultancies, telecom, finance, public sector and flashy
+         startups. Opinionated, mostly wrong and hopefully still learning. He
+         rants at @flurdy and writes whilst learning at flurdy.com.</p>"
+       image:
+         "abrahamsen.png"
+       twitter_handle:
+         "@flurdy"
+       twitter_link:
+         "https://twitter.com/flurdy"
+    title:
+     "Scaling Scala"
+    abstract:
+     "<p>Not performance but scaling people.</p>
+
+     <p>What are the conventions and ideas to consider for your Scala projects
+     when your project/department/company receives a lot of funding to scale the
+     head count massively? What are the best practices, competing ideas,
+     potential pitfalls, shared battle wounds, experiences?</p>
+
+     <p>With references from a games studio that quadrupled to 200 employees in
+     a year, and a public sector department that grew from a few teams to 30+
+     teams and over 200 Scala developers.</p>
+
+     <p>How does a wide range of experience and skill level affect conventions
+     for coding style, functional approach and frameworks used. And related
+     issues with outsourced scaling.</p>
+
+     <p>Essential practicalities such keeping libraries, frameworks, Scala
+     versions up to date across 10s and 100s of projects, using sbt-bobby and
+     alternatives. How to prevent bottlenecks between dependant teams and
+     projects, and continuous local integration with other teams' microservices
+     snapshots. Using tools such as github.com/HMRC/service-manager. Touch on
+     how automated scripted versioned tooling for everything with easy
+     management reduces friction.</p>
+
+     <p>A lot of conventions (some quite firm) but no rules. In the end scaling
+     Scala can be done and done well.</p>"
+
+  -
+    page_name:
+      "pretty"
+    speakers:
+    -
+      name:
+        "JON PRETTY"
+      bio:
+        "<p>Jon (@propensive) has been having fun riding the bleeding edge of
+        Scala for over a decade, and he's not done yet. While he's not
+        travelling the world attending Scala conferences, or organizing his
+        own (Scala World), Jon spends his time working on the open-source
+        Rapture libraries. He is principal engineer at The Scala Center.</p>"
+      image:
+        "pretty.png"
+      twitter_handle:
+        "@propensive"
+      twitter_link:
+        "https://twitter.com/propensive"
+    title:
+      "Type Members vs Type Parameters"
+    abstract:
+      "<p>Scala's type system provides generics in two ways—type members and
+      type parameters—and most advanced Scala developers will use both in their
+      code at different times.</p>
+
+      <p>But how do we choose between them? Usually one or the other will
+      feel \"right\" for a particular use case, and, if not, we can usually
+      refactor our code and take the alternative approach. But could we learn
+      to be better at making the \"right\" choice first time?</p>
+
+      <p>I'll explore the most important considerations when choosing between
+      them, their relationship with existential and universal quantification
+      (I'll also explain what this means!), and look at whether they are
+      completely interchangeable in all cases, or whether certain scenarios
+      force us to take one path or the other.</p>"
