@@ -48,6 +48,7 @@ data.talks.talks.each do |talk|
     :page_name => talk.page_name,
     :title => talk.title,
     :abstract => talk.abstract,
-    :speakers => talk.speakers
+    :speakers => talk.speakers,
+    :type => talk.type
      }, :ignore => true
 end

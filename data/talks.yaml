@@ -4,6 +4,8 @@ talks:
       "spiewak"
     title:
       "Roll your own Shapeless"
+    type:
+      "Presentation"
     abstract:
       "Shapeless is a remarkable framework. It gives us the power to represent
       astonishingly rich constraints and generalize code over very broad
@@ -38,6 +40,8 @@ talks:
       "torreborre"
     title:
       "The Eff monad, one monad to rule them all"
+    type:
+      "Presentation"
     abstract:
       "<p>
       Monad transformers are a neat way to compose effectul computations:
@@ -102,6 +106,8 @@ talks:
       "hoest_winje"
     title:
       "Infinite lambda calculus"
+    type:
+      "Presentation"
     abstract:
       "<p>
       Last year, on flatMap(Oslo): Jonas and Einar found that they could write
@@ -153,6 +159,8 @@ talks:
       "hupel"
     title:
       "How to test proper{t,l}y"
+    type:
+      "Presentation"
     abstract:
       "<p>
       Writing unit tests is pretty much established practice and in addition
@@ -205,6 +213,8 @@ talks:
           "https://twitter.com/alissapajer"
     title:
       "Products, limits, and more!"
+    type:
+      "Presentation"
     abstract:
       "<p>Product types and coproduct types are ubiquitous in functional
       programming. In fact, it would be pretty challenging to program without
@@ -246,6 +256,8 @@ talks:
           "https://twitter.com/darkdimius"
     title:
       "AutoSpecialization in Dotty"
+    type:
+      "Presentation"
     abstract:
       "<p>Seven years ago, specialization arrived in Scala, offering a way to
       improve the performance of methods called with primitive values, thanks
@@ -282,6 +294,8 @@ talks:
           "https://twitter.com/milessabin"
     title:
       "Fighting SI-2712 with dependent types and type level continuation passing"
+    type:
+      "Presentation"
     abstract:
       "<p>While working on the Kittens project, which uses shapeless to derive
       Cats type class instances for Scala algebraic data types, I repeatedly
@@ -330,6 +344,8 @@ talks:
           "https://twitter.com/mrundberget"
     title:
       "Functional Reactive Programming for the Web using Elm"
+    type:
+      "Presentation"
     abstract:
       "<p>Elm is a beautiful statically typed functional language, carefully
       engineered to make it easy and fun to write great apps for the browser.
@@ -378,6 +394,8 @@ talks:
           "https://twitter.com/rit"
     title:
       "Macros for Mortals"
+    type:
+      "Presentation"
     abstract:
       "<p>Since their introduction in 2.10, Macros have veritably taken Scala by
       storm. They pop up everywhere, often providing elegant syntax extensions
@@ -413,28 +431,26 @@ talks:
           "https://twitter.com/olvindberg"
     title:
       "Scala.js - an introduction"
+    type:
+      "Workshop"
     abstract:
-      "<p>Scala.js is a safer way to build robust web applications. We have a good programming language,
-        a stable environment and a fantastic selection of cross-compiled libraries.
+      "<p>Scala.js is a safer way to build robust web applications. We have a
+      good programming language, a stable environment and a fantastic selection
+      of cross-compiled libraries.</p>
+
+      <p>After this workshop you will be ready to continue coding with Scala.js
+      by yourself.</p>
+
+      <p>We will start out by exploring a template sbt project so you can get a
+      feel for how the build pipeline works. Participants will then get some
+      intuition about what Scala.js can do and cannot do.</p>
+
+      <p>Finally, we will see how we share source code between client and
+      server, and how we can get awesome type-safe Ajax calls
+      (courtesy of autowire) with automatic Json codec derivation (with uPickle)
       </p>
 
-      <p>
-        After this workshop you will be ready to continue coding with Scala.js by yourself.
-      </p>
-
-      <p>
-        We will start out by exploring a template sbt project so you can get a feel for how the build pipeline
-        works.
-
-        Participants will then get some intuition about what Scala.js can do and cannot do.
-
-        Finally, we will see how we share source code between client and server,
-        and how we can get awesome type-safe Ajax calls (courtesy of autowire) with
-        automatic Json codec derivation (with uPickle)
-      <p>
-
-      <p>
-        Knowledge of Scala is recommended. Frontend experience is beneficial but not at all necessary.
+      <p>Knowledge of Scala is recommended. Frontend experience is beneficial but not at all necessary.
       </p>"
 
   -
@@ -457,6 +473,8 @@ talks:
           "https://twitter.com/torbjornvatn"
     title:
       "Go with the Dataflow!"
+    type:
+      "Presentation"
     abstract:
       "<p>A field report on how running a Scala app on Google Container Engine,
       interfacing with several of Google Cloud's native services, has worked
@@ -500,6 +518,8 @@ talks:
           "https://twitter.com/ctford"
     title:
       "Klangmeister"
+    type:
+      "Presentation"
     abstract:
       "<p>Live music coding, like other forms of programming, can require a lot
       of setup to get started. That’s a shame – many newcomers lose their
@@ -535,6 +555,8 @@ talks:
          "https://twitter.com/flurdy"
     title:
      "Scaling Scala"
+    type:
+      "Presentation"
     abstract:
      "<p>Not performance but scaling people.</p>
 
@@ -583,6 +605,8 @@ talks:
         "https://twitter.com/propensive"
     title:
       "Type Members vs Type Parameters"
+    type:
+      "Presentation"
     abstract:
       "<p>Scala's type system provides generics in two ways—type members and
       type parameters—and most advanced Scala developers will use both in their
@@ -598,3 +622,208 @@ talks:
       (I'll also explain what this means!), and look at whether they are
       completely interchangeable in all cases, or whether certain scenarios
       force us to take one path or the other.</p>"
+
+  -
+    page_name:
+      "hauck"
+    speakers:
+    -
+      name:
+        "MARKUS HAUCK"
+      bio:
+        "<p>Markus works at codecentric AG in Germany as an IT Consultant and
+        Lightbend (formerly Typesafe) Scala Trainer. Currently he is using Scala
+        for his day-to-day work and he is also active
+        (when he finds the time) in open-source, e.g. cats, scalaz and friends.
+        He is a big fan of functional programming!</p>"
+      image:
+        "hauck.png"
+      twitter_handle:
+        ""
+      twitter_link:
+        ""
+    title:
+      "Free monads and free applicatives"
+    type:
+      "Presentation"
+    abstract:
+      "<p>The talk is about free monads and free applicatives.
+      More concretely, I will present a DSL that uses a combination of both to
+      create a DSL that has the full monadic power, but still allows the user
+      to embed parts written using the free applicative interface.
+      Those parts (free applicative) can then be analyzed and optimized during
+      the program execution.</p>
+
+      <p>I plan to apply the idea to a case study thereby demonstrating how to
+      combine free monads and free applicatives into a DSL which features some
+      nice properties we can gain from embedding applicative parts,
+      like static analyzability.</p>"
+
+  -
+    page_name:
+      "nedelcu"
+    speakers:
+    -
+      name:
+        "ALEXANDRU NEDELCU"
+      bio:
+        "<p>Alexandru is a software developer living in Bucharest, Romania,
+        currently working for Eloquentix. A startup guy, by day he's been
+        helping with projects for powering the next generation energy grid
+        solutions and for advancing the health-care industry.</p>
+
+        <p>By night he's fueled by his work on the Monix project, the Scala
+        library for composing asynchronous and event-based programs. He's also
+        a proud father, husband, has a very unhealthy sleep schedule and
+        appreciates talking about programming over beer.</p>
+
+        <p>Sometimes he blogs at https://bionicspirit.com</p>"
+      image:
+        "nedelcu.png"
+      twitter_handle:
+        "@alexelcu"
+      twitter_link:
+        "https://twitter.com/alexelcu"
+    title:
+      "On dealing with asynchronicity with the Monix Task"
+    type:
+      "Presentation"
+    abstract:
+      "<p>Scala’s Future from the standard library is great, but sometimes we
+      need more.</p>
+
+      <p>A Future strives to be a value, one detached from time and for this
+      reason its capabilities are restricted and for some use-cases its behavior
+      ends up being unintuitive. Hence, while the Future/Promise pattern is
+      great for representing asynchronous results of processes that may or may
+      not be started yet, it cannot be used as a specification for an
+      asynchronous computation.</p>
+
+      <p>The Monix Task is in essence about dealing with asynchronous
+      computations and non-determinism, being inspired by the Scalaz Task and
+      designed from the ground up for performance and to be compatible with
+      Scala.js/Javascript runtimes and with the Cats library. It also makes use
+      of Scala’s Future to represent results, the two being complementary.</p>
+
+      <p>In this talk I’ll show you its design, when you should use it and why
+      in dealing with asynchronicity it’s better to work with Task instead of
+      blocking threads.</p>"
+
+  -
+    page_name:
+      "geirsson"
+    speakers:
+    -
+      name:
+        "ÓLAFUR PÁLL GEIRSSON"
+      bio:
+        "<p>Ólafur is a Master's student at Martin Odersky's lab at EPFL. He
+        has written payroll management systems in Iceland, flirted with
+        embedded DSLs in Scala and worked on developer productivity at Google.
+        Ólafur blogs at geirsson.com.</p>
+
+        <p>Rumour has it that Ólafur is looking for a job in Norway after he
+        graduates this summer. Why Norway? Ask him.</p>"
+      image:
+        "geirsson.png"
+      twitter_handle:
+        "@olafurpg"
+      twitter_link:
+        "https://twitter.com/olafurpg"
+    title:
+      "Automatic, opinionated code formatting with scalafmt"
+    type:
+      "Presentation"
+    abstract:
+      "<p>Any style guide written in English is either so brief that it’s
+      ambiguous, or so long that no one reads it. Scalafmt does its best to
+      relieve your attention from such trivia and let you focus instead on
+      writing correct, maintainable code. Mark the end of arguments about
+      formatting!</p>
+
+      <p>In this talk, we’ll see how scalafmt works and how it’s different from
+      its sibling Scalariform. We will also dig into how Scalafmt is implemented
+      with scala.meta, a new metaprogramming library that leverages both the
+      functional and OO aspects of Scala. It turns out that scala.meta's
+      syntactic API and scalafmt are a match made in heaven.</p>
+
+      <p>Expect a lot of funky looking code. Don't forget to bring your
+      strongest opinions on whitespace and indentation, it may be your last
+      chance to express them.</p>"
+
+  -
+    page_name:
+      "stepien"
+    speakers:
+    -
+      name:
+        "JAN STĘPIEŃ"
+      bio:
+        "<p>Jan is a software developer at stylefruits, where he's responsible
+        for a network of micro- and macro-services. He runs (½-) marathons and
+        enjoys wandering in snowy Alpine wilderness. When the weather is bad he
+        plays Go instead. He’s easily confused by the assignment operator.</p>"
+      image:
+        "stepien.png"
+      twitter_handle:
+        "@janstepien"
+      twitter_link:
+        "https://twitter.com/janstepien"
+    title:
+      "Let's play Go in Clojure"
+    type:
+      "Workshop"
+    abstract:
+      "<p>You've played around with Clojure a bit. You've learned the basics and
+      you enjoy the language a lot. Now you're wondering how to build your first
+      non-trivial project. Let's do this together!</p>
+
+      <p>In this workshop we'll build an HTTP backend system for playing the
+      ancient game of Go. We'll learn how to structure a non-trivial project.
+      We'll use best tools the Clojure ecosystem has to offer. We'll use the
+      productive dev environment to the full. We'll also learn basics of Go
+      (the board game, it is).</p>
+
+      <p>The workshop is aimed at people who've experimented a bit with Clojure,
+      know the basics of the language, and are now wondering how to structure a
+      real-world project.</p>"
+
+  -
+    page_name:
+      "ustiuzhanina"
+    speakers:
+    -
+      name:
+        "KATE USTIUZHANINA"
+      bio:
+        "<p>Kate got Master's degree in Software Engineering from St Petersburg
+        Academic University. She works on Scala Plugin at JetBrains.</p>"
+      image:
+        "ustiuzhanina.png"
+      twitter_handle:
+        ""
+      twitter_link:
+        ""
+    title:
+      "Who\'s writing the code: you or your IDE?"
+    type:
+      "Workshop"
+    abstract:
+      "<p>What if there was an IDE that could write code for you? That\'d be
+      great for sure, but unfortunately, as smart as they are, modern IDE can\'t
+      do that for you yet. Luckily, there\'s Scala Plugin, that, when used
+      together with IntelliJ IDEA, can help you to be as productive as possible,
+      and well, gets you quite close to that self coding dream IDE.</p>
+
+      <p>How do I not waste energy on routine tasks and focus on the most
+      important concepts of my Scala program? How can I save time and write
+      less boilerplate code? We will answer both these and other questions in
+      our talk. We will solve real world challenges quickly and efficiently
+      using numerous features like live templates, while showing handy tips and
+      tricks in action.</p>
+
+      <p>Participants of this workshop will learn about useful
+      refactorings, navigation, completion, and other features, as well as how
+      to use them via handy keyboard shortcuts (which is guaranteed to put your
+      mouse to rest.) Forget about routine coding with IntelliJ IDEA and Scala
+      Plugin!</p>"
