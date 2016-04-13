@@ -63,7 +63,7 @@
           </a>
       </section>
     </section>
-    <div> <!--class="sabin">-->
+    <div> <!--class="geirsson">-->
       <section class="description_inverse text-center">
   <h2><strong>flatMap(Oslo)</strong> is a functional programming conference <br/>
   with focus on Scala and the Java Virtual Machine</h2>
@@ -72,23 +72,25 @@
 <section class="speakers" id="session">
     <div class="row">
       <div class="text-center">
-        <h3>Fighting SI-2712 with dependent types and type level continuation passing</h3>
+        <h3>Automatic, opinionated code formatting with scalafmt</h3>
         <p>Presentation</p>
       </div>
       <p class="spaced">
-          <p>While working on the Kittens project, which uses shapeless to derive Cats type class instances for Scala algebraic data types, I repeatedly found myself running straight into the brick wall of the infamous Scala compiler bug that's listed in the Scala issue tracker as SI-2712. Game over? No, Challenge Accepted!</p>
-<p>In this talk I'll explain what SI-2712 is and why it's a problem, especially in libraries like Cats which make extensive use of type classes, like Functor, which are indexed by higher kinded types. I'll explain some of the techniques that can be used to work around it, both old, like Unapply, and new, such as the continuation passing style inspired approach I took in shapeless to support Kittens. I'll also talk about the prospect of trying to fix SI-2712 in Typelevel Scala rather than just working around it.</p>
+          <p>Any style guide written in English is either so brief that it’s ambiguous, or so long that no one reads it. Scalafmt does its best to relieve your attention from such trivia and let you focus instead on writing correct, maintainable code. Mark the end of arguments about formatting!</p>
+<p>In this talk, we’ll see how scalafmt works and how it’s different from its sibling Scalariform. We will also dig into how Scalafmt is implemented with scala.meta, a new metaprogramming library that leverages both the functional and OO aspects of Scala. It turns out that scala.meta's syntactic API and scalafmt are a match made in heaven.</p>
+<p>Expect a lot of funky looking code. Don't forget to bring your strongest opinions on whitespace and indentation, it may be your last chance to express them.</p>
       </p>
 
 
       <div class="text-center">
-        <a name="MILES SABIN"></a>
-        <p><img src="/images/sabin.png" height="180" width="180"/></p>
-        <h3>MILES SABIN</h3>
-        <p><a href="https://twitter.com/milessabin">@milessabin</a></p>
+        <a name="ÓLAFUR PÁLL GEIRSSON"></a>
+        <p><img src="/images/geirsson.png" height="180" width="180"/></p>
+        <h3>ÓLAFUR PÁLL GEIRSSON</h3>
+        <p><a href="https://twitter.com/olafurpg">@olafurpg</a></p>
       </div>
       <p class="spaced">
-        Miles has been doing stuff with Scala for more than ten years, currently with Underscore Consulting. He is a cofounder of Typelevel and his best known project, the Scala generic programming library shapeless, is the weapon of choice wherever boilerplate needs to be scrapped or arities abstracted over.
+        <p>Ólafur is a Master's student at Martin Odersky's lab at EPFL. He has written payroll management systems in Iceland, flirted with embedded DSLs in Scala and worked on developer productivity at Google. Ólafur blogs at geirsson.com.</p>
+<p>Rumour has it that Ólafur is looking for a job in Norway after he graduates this summer. Why Norway? Ask him.</p>
       </p>
 
   </div>
