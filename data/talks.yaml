@@ -379,9 +379,9 @@ talks:
           with the Reactive Platform (Scala, Akka, Play, Spark, and Lagom). In
           the past, Brendan has worked at Netflix building APIs, worked on a
           series of financial trading platforms, and was an early employee of
-          MongoDB.</p>"
+          MongoDB.</p>
 
-          "<p>While at MongoDB, he created the integration drivers between
+          <p>While at MongoDB, he created the integration drivers between
           MongoDB and Scala, as well as MongoDB and Hadoop. Brendan was also an
           early contributor to the Akka project, with one of the earliest Akka
           production deployments under his belt.</p>"
@@ -826,3 +826,53 @@ talks:
       to use them via handy keyboard shortcuts (which is guaranteed to put your
       mouse to rest.) Forget about routine coding with IntelliJ IDEA and Scala
       Plugin!</p>"
+
+  -
+    page_name:
+      "hamberg"
+    speakers:
+    -
+      name:
+        "ERLEND HAMBERG"
+      bio:
+        "<p>Erlend Hamberg started a on computer engineering degree to learn
+        about systems programming and hardware, but veered slightly off course
+        and ended up with a degree in computer science with a specialization in
+        artificial intelligence.</p>
+
+        <p>He briefly returned to his former passion of low-level programming,
+        working on GPU drivers, but was never able to let go of the power and
+        elegance of functional programming and ended up climbing back up the
+        abstraction ladder.</p>
+
+        <p>When he is not in front of a computer you can find him in the
+        Oslofjord, kayaking.</p>"
+      image:
+        "hamberg.png"
+      twitter_handle:
+        "@ehamberg"
+      twitter_link:
+        "https://twitter.com/ehamberg"
+    title:
+      "Stack: Painfree, Reproducable Building of Haskell Project"
+    type:
+      "Presentation"
+    abstract:
+      "<p>Stack is a new, modern cross-platform build tool for Haskell. It can
+      not only build your project and its dependencies, but also manage the
+      entire toolchain (including the GHC compiler). It is an alternative to
+      cabal-install and has already allowed many developers to escape “cabal
+      hell” even though it was announced less than a year ago.</p>
+
+      <p>The most important design point of stack is that if you run
+      “stack build” today, you should get the same result running “stack build”
+      tomorrow. Hiding behind this guarantee is a curated source of Haskell
+      package sets that are internally consistency and whose tests pass.</p>
+
+      <p>We'll take a look at how Stack achieves its guarantees, but most of all
+      we'll look at how it works in practice, how it allows projects to safely
+      share pre-built dependencies, and how even scripts written in Haskell can
+      be guaranteed to keep working in the future. We'll also look at how Stack
+      integrates with Docker, allowing builds to happen in a container, meaning
+      that all developers on a project can have a shared, consistent build
+      environment.</p>"
