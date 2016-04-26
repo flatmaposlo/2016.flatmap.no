@@ -785,7 +785,13 @@ talks:
 
       <p>The workshop is aimed at people who've experimented a bit with Clojure,
       know the basics of the language, and are now wondering how to structure a
-      real-world project.</p>"
+      real-world project.</p>
+
+      <p>💥 Important! 💥 Are you going to attend the workshop? Be sure to
+      follow instructions in the README of
+      <a href=\"https://github.com/jstepien/goback\">
+      https://github.com/jstepien/goback</a>
+      </p>"
 
   -
     page_name:
