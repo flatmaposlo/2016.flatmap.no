@@ -1,0 +1,258 @@
+<section class="schedule_frontpage">
+  <div class="row">
+    <div class="row text-center">
+      <h3>SCHEDULE</h3>
+    </div>
+    <a name="schedule"></a>
+    <div class="row text-center">
+      <h3>DAY 1</h3>
+    </div>
+   <ul class="schedule">
+     <li class="text-center time">08:00</li>
+     <li class="conference text-center">REGISTRATION, COFFEE</li>
+     <li class="text-center time">08:45</li>
+     <li class="conference text-center">WELCOME, PRACTICAL INFORMATION</li>
+     <li class="text-center time">09:00</li>
+     <li class="talk">
+       <a href="spiewak.html#session">
+         <div>Roll your own Shapeless</div>
+         <div class="schedule_speaker">DANIEL SPIEWAK</div>
+         <div class="schedule_type">presentation</div>
+       </a>
+     </li>
+     <li class="text-center time">10:10</li>
+     <li class="splittracks">
+       <ul class="tracks">
+         <li class="track">
+           <ul class="split">
+             <li class="talk">
+               <a href="mcadams.html#session">
+                 <div>Macros for mortals</div>
+                 <div class="schedule_speaker">BRENDAN MCADAMS</div>
+                 <div class="schedule_type">presentation</div>
+               </a>
+             </li>
+             <li class="text-center time">11:00</li>
+             <li class="talk">
+               <a href="pajer.html#session">
+                 <div>Products, limits, and more!</div>
+                 <div class="schedule_speaker">ALISSA PAJER</div>
+                 <div class="schedule_type">presentation</div>
+               </a>
+             </li>
+           </ul>
+         </li>
+         <li class="workshops">
+           <ul class="split">
+             <li class="workshop">
+               <a href="berg.html#session">
+                 <div>Scala.js - an introduction</div>
+                 <div class="schedule_speaker">ØYVIND RADDUm BERG</div>
+                 <div class="schedule_type">workshop</div>
+               </a>
+             </li>
+           </ul>
+       </ul>
+     </li>
+     <li class="text-center time">11.40</li>
+     <li class="conference text-center">LUNCH</li>
+     <li class="text-center time">12:30</li>
+     <li class="splittracks">
+       <ul class="tracks">
+         <li class="track">
+           <ul class="split">
+             <li class="talk">
+               <a href="vatn.html#session">
+                 <div>Go with the Dataflow!</div>
+                 <div class="schedule_speaker">TORBJØRN VATN</div>
+                 <div class="schedule_type">presentation</div>
+               </a>
+             </li>
+             <li class="text-center time">13:20</li>
+             <li class="talk">
+               <a href="hamberg.html#session">
+                  <div>Stack: Painfree, Reproducable Building of Haskell Projects</div>
+                  <div class="schedule_speaker">ERLEND HAMBERG</div>
+                  <div class="schedule_type">presentation</div>
+                </a>
+             </li>
+           </ul>
+         </li>
+         <li class="workshops">
+           <ul class="split">
+             <li class="workshop">
+               <a href="spiewak.html#session">
+                 <div>scalaz-stream</div>
+                 <div class="schedule_speaker">DANIEL SPIEWAK</div>
+                 <div class="schedule_type">workshop</div>
+               </a>
+             </li>
+           </ul>
+       </ul>
+     </li>
+     <li class="text-center time">14:00</li>
+     <li class="conference text-center">BREAK</li>
+     <li class="text-center time">14:20</li>
+     <li class="talk">
+       <a href="hupel.html#session">
+         <div>How to test proper{t,l}y</div>
+         <div class="schedule_speaker">LARS HUPEL</div>
+         <div class="schedule_type">presentation</div>
+       </a>
+     </li>
+     <li class="text-center time">15:10</li>
+     <li class="talk">
+       <a href="abrahamsen.html#session">
+         <div>Scaling Scala</div>
+         <div class="schedule_speaker">IVAR ABRAHAMSEN</div>
+         <div class="schedule_type">presentation</div>
+       </a>
+     </li>
+     <li class="text-center time">15:50</li>
+     <li class="conference text-center">BREAK</li>
+     <li class="text-center time">16:10</li>
+     <li class="talk">
+       <a href="hoest_winje.html#session">
+         <div>Lambda</div>
+         <div class="schedule_speaker">EINAR HØST</div>
+         <div class="schedule_speaker">JONAS WINJE</div>
+         <div class="schedule_type">presentation</div>
+       </a>
+     </li>
+     <li class="text-center time">17:00</li>
+     <li class="talk">
+       <a href="ford.html#session">
+         <div>Klangmeister</div>
+         <div class="schedule_speaker">CHRIS FORD</div>
+         <div class="schedule_type">presentation</div>
+       </a>
+     </li>
+     <li class="text-center time">18.00</li>
+     <li class="conference text-center">CONFERENCE DINNER</li>
+   </ul>
+   <br/><br/><br/><br/>
+   <div class="row text-center">
+     <h3>DAY 2</h3>
+   </div>
+  <ul class="schedule">
+    <li class="text-center time">08:00</li>
+    <li class="conference text-center">COFFEE</li>
+    <li class="text-center time">09:00</li>
+    <li class="talk">
+      <a href="sabin.html#session">
+        <div>Fighting SI-2712 with dependent types and type level continuation passing</div>
+        <div class="schedule_speaker">MILES SABIN</div>
+        <div class="schedule_type">presentation</div>
+      </a>
+    </li>
+    <li class="text-center time">09.40</li>
+    <li class="conference text-center">BREAK</li>
+    <li class="text-center time">10:10</li>
+    <li class="splittracks">
+      <ul class="tracks">
+        <li class="track">
+          <ul class="split">
+            <li class="talk">
+              <a href="nedelcu.html#session">
+                <div>On dealing with asynchronicity with the Monix Task</div>
+                <div class="schedule_speaker">ALEXANDRU NEDELCU</div>
+                <div class="schedule_type">presentation</div>
+              </a>
+            </li>
+            <li class="text-center time">11:00</li>
+            <li class="talk">
+              <a href="torreborre.html#session">
+                <div>The Eff monad, one monad to rule them all</div>
+                <div class="schedule_speaker">ERIC TORREBORRE</div>
+                <div class="schedule_type">presentation</div>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="workshops">
+          <ul class="split">
+            <li class="workshop">
+              <a href="stepien.html#session">
+                <div>Let's play Go in Clojure</div>
+                <div class="schedule_speaker">JAN STĘPIEŃ</div>
+                <div class="schedule_type">workshop</div>
+              </a>
+            </li>
+          </ul>
+      </ul>
+    </li>
+    <li class="text-center time">11.40</li>
+    <li class="conference text-center">LUNCH</li>
+    <li class="text-center time">12:30</li>
+    <li class="splittracks">
+      <ul class="tracks">
+        <li class="track">
+          <ul class="split">
+            <li class="talk">
+              <a href="petrashko.html#session">
+                <div>AutoSpecialization in Dotty</div>
+                <div class="schedule_speaker">DMITRY PETRASHKO</div>
+                <div class="schedule_type">presentation</div>
+              </a>
+            </li>
+            <li class="text-center time">13:20</li>
+            <li class="talk">
+              <a href="hauck.html#session">
+                <div>Free monads and free applicatives</div>
+                <div class="schedule_speaker">MARKUS HAUCK</div>
+                <div class="schedule_type">presentation</div>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="workshops">
+          <ul class="split">
+            <li class="workshop">
+              <a href="ustiuzhanina.html#session">
+                <div>Who's writing the code: you or your IDE?</div>
+                <div class="schedule_speaker">KATE USTIUZHANINA</div>
+                <div class="schedule_type">workshop</div>
+              </a>
+            </li>
+          </ul>
+      </ul>
+    </li>
+    <li class="text-center time">14.00</li>
+    <li class="conference text-center">BREAK</li>
+    <li class="text-center time">14:20</li>
+    <li class="talk">
+      <a href="rundberget.html#session">
+        <div>Functional Reactive Programming for the Web using Elm</div>
+        <div class="schedule_speaker">MAGNUS RUNDBERGET</div>
+        <div class="schedule_type">presentation</div>
+      </a>
+    </li>
+    <li class="text-center time">15:10</li>
+    <li class="talk">
+      <a href="geirsson.html#session">
+        <div>Automatic, opinionated code formatting with scalafmt</div>
+        <div class="schedule_speaker">ÓLAFUR PÁLL GEIRSSON</div>
+        <div class="schedule_type">presentation</div>
+      </a>
+    </li>
+    <li class="text-center time">15.50</li>
+    <li class="conference text-center">BREAK</li>
+    <li class="text-center time">16:10</li>
+    <li class="talk">
+      <a href="markham.html#session">
+        <div>Being creative with genetic algorithms and typeclasses</div>
+        <div class="schedule_speaker">NOEL MARKHAM</div>
+        <div class="schedule_type">presentation</div>
+      </a>
+    </li>
+    <li class="text-center time">17:00</li>
+    <li class="talk">
+      <a href="pretty.html#session">
+        <div>Type Members vs Type Parameters</div>
+        <div class="schedule_speaker">JON PRETTY</div>
+        <div class="schedule_type">presentation</div>
+      </a>
+    </li>
+  </ul>
+  </div>
+</section>
