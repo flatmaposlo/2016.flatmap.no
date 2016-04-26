@@ -876,3 +876,44 @@ talks:
       integrates with Docker, allowing builds to happen in a container, meaning
       that all developers on a project can have a shared, consistent build
       environment.</p>"
+
+  -
+    page_name:
+      "markham"
+    speakers:
+    -
+      name:
+        "NOEL MARKHAM"
+      bio:
+        "<p>Noel Markham lives in London, and started out as a Java developer
+        in finance, before moving to functional programming in a wide range of
+        industries, including games and social media startups, and one of the
+        largest broadcasters in the UK. Before becoming a Scala developer, he
+        wrote the book Java Programming Interviews Exposed, but more recently
+        enjoys sharing his knowledge by speaking at conferences and attending
+        meetups.</p>"
+      image:
+        "markham.png"
+      twitter_handle:
+        "@noelmarkham"
+      twitter_link:
+        "https://twitter.com/noelmarkham"
+    title:
+      "Being creative with genetic algorithms and typeclasses"
+    type:
+      "Presentation"
+    abstract:
+      "<p>Typeclasses are a hidden gem of the Scala language. They provide an
+      immense power not seen in imperative languages, and so their approach
+      might be unusual or alien to those approaching Scala from an imperative
+      background. I will show how typeclasses allow developers to effectively
+      attach their own interfaces to code written by others.</p>
+
+      <p>In this talk I plan to describe what a genetic algorithm is, and
+      provide an example implementation in Scala. Using this implementation,
+      I will demonstrate how to define a specific typeclass for our problem. I
+      will then derive several different implementations, showing how to get
+      rock solid confidence in testing our algorithm - with the help of
+      ScalaCheck - and then provide a completely different typeclass to provide
+      a fun, visual and creative solution, illustrating the iterations and
+      improvements as the genetic algorithm’s fitness function runs.</p>"
