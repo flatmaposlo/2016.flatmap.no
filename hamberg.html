@@ -63,7 +63,7 @@
           </a>
       </section>
     </section>
-    <div> <!--class="mcadams">-->
+    <div> <!--class="hamberg">-->
       <section class="description_inverse text-center">
   <h2><strong>flatMap(Oslo)</strong> is a functional programming conference <br/>
   with focus on Scala and the Java Virtual Machine</h2>
@@ -72,25 +72,26 @@
 <section class="speakers" id="session">
     <div class="row">
       <div class="text-center">
-        <h3>Macros for Mortals</h3>
+        <h3>Stack: Painfree, Reproducable Building of Haskell Project</h3>
         <p>Presentation</p>
       </div>
       <p class="spaced">
-          <p>Since their introduction in 2.10, Macros have veritably taken Scala by storm. They pop up everywhere, often providing elegant syntax extensions for Scala libraries – note the prevalence of “sql” string interpolation macros, for example.</p>
-<p>Many developers, however, are scared and confused by Macros – rightly so. Many examples of Macros require deep knowledge of the Scala AST, internals and oddities. But hope exists: newer features like quasiquotes make it ridiculously easy to write powerful Macros with code templating. </p>
-<p>In this talk, we’ll demystify just how Macros work and are constructed, walking through many of the different “types” of Macros that Scala supports. A final focus will be given to the use of the newer Quasiquotes and Annotations features as a way of quickly constructing powerful new code features in your own Scala code.</p>
+          <p>Stack is a new, modern cross-platform build tool for Haskell. It can not only build your project and its dependencies, but also manage the entire toolchain (including the GHC compiler). It is an alternative to cabal-install and has already allowed many developers to escape “cabal hell” even though it was announced less than a year ago.</p>
+<p>The most important design point of stack is that if you run “stack build” today, you should get the same result running “stack build” tomorrow. Hiding behind this guarantee is a curated source of Haskell package sets that are internally consistency and whose tests pass.</p>
+<p>We'll take a look at how Stack achieves its guarantees, but most of all we'll look at how it works in practice, how it allows projects to safely share pre-built dependencies, and how even scripts written in Haskell can be guaranteed to keep working in the future. We'll also look at how Stack integrates with Docker, allowing builds to happen in a container, meaning that all developers on a project can have a shared, consistent build environment.</p>
       </p>
 
 
       <div class="text-center">
-        <a name="BRENDAN MCADAMS"></a>
-        <p><img src="/images/mcadams.png" height="180" width="180"/></p>
-        <h3>BRENDAN MCADAMS</h3>
-        <p><a href="https://twitter.com/rit">@rit</a></p>
+        <a name="ERLEND HAMBERG"></a>
+        <p><img src="/images/hamberg.png" height="180" width="180"/></p>
+        <h3>ERLEND HAMBERG</h3>
+        <p><a href="https://twitter.com/ehamberg">@ehamberg</a></p>
       </div>
       <p class="spaced">
-        <p>Brendan McAdams works as a Senior Consultant & Trainer for Lightbend (formerly Typesafe), helping support and enable customers with the Reactive Platform (Scala, Akka, Play, Spark, and Lagom). In the past, Brendan has worked at Netflix building APIs, worked on a series of financial trading platforms, and was an early employee of MongoDB.</p>
-<p>While at MongoDB, he created the integration drivers between MongoDB and Scala, as well as MongoDB and Hadoop. Brendan was also an early contributor to the Akka project, with one of the earliest Akka production deployments under his belt.</p>
+        <p>Erlend Hamberg started a on computer engineering degree to learn about systems programming and hardware, but veered slightly off course and ended up with a degree in computer science with a specialization in artificial intelligence.</p>
+<p>He briefly returned to his former passion of low-level programming, working on GPU drivers, but was never able to let go of the power and elegance of functional programming and ended up climbing back up the abstraction ladder.</p>
+<p>When he is not in front of a computer you can find him in the Oslofjord, kayaking.</p>
       </p>
 
   </div>
