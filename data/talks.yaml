@@ -450,6 +450,12 @@ talks:
       </p>
 
       <p>Knowledge of Scala is recommended. Frontend experience is beneficial but not at all necessary.
+      </p>
+
+      <p>💥 Important! 💥 Are you going to attend the workshop? Be sure to
+      follow instructions in the TLDR of the README at
+      <a href=\"https://github.com/oyvindberg/scalajs-workshop\">
+      https://github.com/oyvindberg/scalajs-workshop</a>
       </p>"
 
   -
