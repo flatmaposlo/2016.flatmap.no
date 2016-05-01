@@ -831,7 +831,12 @@ talks:
       refactorings, navigation, completion, and other features, as well as how
       to use them via handy keyboard shortcuts (which is guaranteed to put your
       mouse to rest.) Forget about routine coding with IntelliJ IDEA and Scala
-      Plugin!</p>"
+      Plugin!</p>
+
+      <p>We are going to learn about Intellij IDEA and Scala plugin by improving <a href=\"https://github.com/katejim/WorkshopOslo\">this project</a>.
+      It will save us a lot of time if you clone and import the project before the workshop.
+      Although, the project is made using Spray toolkit,
+      no prior knowledge of Spray is required.</p>"
 
   -
     page_name:
