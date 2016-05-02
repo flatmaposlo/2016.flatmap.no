@@ -893,3 +893,35 @@ talks:
       integrates with Docker, allowing builds to happen in a container, meaning
       that all developers on a project can have a shared, consistent build
       environment.</p>"
+
+  -
+    page_name:
+      "merritt"
+    speakers:
+    -
+      name:
+        "JONATHAN MERRIT"
+      bio:
+        "<p>Jonathan Merritt is a software engineer in the finance sector in Australia, writing code in Haskell and Scala
+         to support data scientists to develop large-scale predictive models. </p>
+         <p>Before joining the tech industry 2 years ago, he completed a PhD on equine biomechanics followed by 10 years
+          on the post-doc treadmill; dissecting human cadavers, building photogrammetrically-guided robots,
+          testing horseshoes that had an in-built inertial navigation system, and doing motion capture in horses.</p>"
+      image:
+        "merritt.png"
+      twitter_handle:
+        "@jmerritt"
+      twitter_link:
+        "https://twitter.com/jmerritt"
+    title:
+      "Scala in Equine Biomechanics"
+    type:
+      "Presentation"
+    abstract:
+      "<p>Biomechanics analysis is dominated by dynamically-typed languages like Matlab, R and Python.</p>
+       <p>In this talk, I'll present several projects that were instead completed in Scala,
+       and demonstrated clear benefits from using types and higher-level abstractions.
+       This work included processing and visualizing motion capture data in Scala. </p>
+       <p>It has previously been published in refereed journals, but never previously described at a Scala conference.
+       The work was completed with collaborators from Michigan State University, the Structure and Motion Laboratory
+       at the Royal Veterinary College and the University of Melbourne.</p>"
