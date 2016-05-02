@@ -238,7 +238,12 @@
     <li class="text-center time">15.50</li>
     <li class="conference text-center">BREAK</li>
     <li class="text-center time">16:10</li>
-    <li class="talk">      
+    <li class="talk">
+      <a href="merritt.html#session">
+        <div>Scala in Equine Biomechanics</div>
+        <div class="schedule_speaker">JONATHAN MERRIT</div>
+        <div class="schedule_type">presentation</div>
+      </a>
     </li>
     <li class="text-center time">17:00</li>
     <li class="talk">
